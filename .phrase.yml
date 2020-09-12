@@ -1,0 +1,13 @@
+phrase:
+  access_token: b36c9f23336d3388feecc40d0a4c419fa7d9ae3e0e546060e26bc0c7b29083a2
+  project_id: 3564ed41a755ecfae1754bfa55e509d6
+  push:
+    sources:
+    - file: ./locales/<locale_name>.json
+      params:
+        file_format: json
+  pull:
+    targets:
+    - file: ./locales/<locale_name>.json
+      params:
+        file_format: json
