@@ -83,6 +83,9 @@ async function main(args) {
 		const localeStrings = flatten(yaml.safeLoad(rawLocaleStrings));
 		const chromeStrings = {};
 		for (let key of sortedMut(Object.keys(localeStrings))) {
+			if (descriptions && !descriptions[key]) {
+				throw new Error("Missing description for key " + key);
+			}
 			chromeStrings[key] = {
 				message: localeStrings[key],
 				description: descriptions[key],
