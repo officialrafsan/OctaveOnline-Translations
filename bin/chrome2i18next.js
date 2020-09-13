@@ -18,27 +18,26 @@ const flatten = require("flat");
 const fs = require("fs");
 const mkdirp = require("mkdirp");
 const path = require("path");
-const yaml = require("js-yaml");
 
 require("yargs")
-	.scriptName("i18next2chrome")
-	.usage("$0", "Converts from i18next to Chrome JSON translation bundles", (yargs) => {
+	.scriptName("chrome2i18next")
+	.usage("$0", "Converts from Chrome JSON to i18next translation bundles", (yargs) => {
 		yargs.option("in_dir", {
 			alias: "i",
 			demandOption: true,
 			requiresArg: true,
-			describe: "Input directory containing i18next files",
+			describe: "Input directory containing Chrome JSON files",
 		})
 		.option("out_dir", {
 			alias: "o",
 			demandOption: true,
 			requiresArg: true,
-			describe: "Output directory containing Chrome JSON files",
+			describe: "Output directory containing i18next files",
 		})
 		.option("i18next_format", {
-			// TODO: Consider adding JSON output format
-			choices: ["yaml"],
-			default: "yaml",
+			// TODO: Consider adding YAML output format
+			choices: ["json"],
+			default: "json",
 			describe: "i18next file format",
 		})
 		.option("locales", {
@@ -62,29 +61,17 @@ async function main(args) {
 		locales = args.locales;
 	} else {
 		locales = [];
-		const re = new RegExp("(\\w+)\\." + args.i18next_format);
+		const re = new RegExp("^(\\w+)\\.json");
 		const filenames = await fs.promises.readdir(args.in_dir);
 		for (let filename of filenames) {
 			let match;
 			if (match = re.exec(filename)) {
-				if (match[1] === "qqq") {
-					// Description file
-					continue;
-				}
 				locales.push(match[1]);
 			}
 		}
 	}
-
-	// Load descriptions if available
-	const descFilename = "qqq." + args.i18next_format;
-	let descriptions;
-	try {
-		const descPath = path.join(args.in_dir, descFilename);
-		const rawDescriptions = await fs.promises.readFile(descPath, "utf-8");
-		descriptions = flatten(yaml.safeLoad(rawDescriptions));
-	} catch (e) {
-		console.error("Note: descriptions not found in " + descriptionFilename);
+	if (locales.length === 0) {
+		throw new Error("Found no locales in input directory");
 	}
 
 	// Create output directory if necessary
@@ -92,21 +79,16 @@ async function main(args) {
 
 	// Transform each locale and dump to output directory
 	for (let locale of locales) {
-		const localePath = path.join(args.in_dir, locale + "." + args.i18next_format);
-		const rawLocaleStrings = await fs.promises.readFile(localePath, "utf-8");
-		const localeStrings = flatten(yaml.safeLoad(rawLocaleStrings));
-		const chromeStrings = {};
-		for (let key of sortedMut(Object.keys(localeStrings))) {
-			if (descriptions && !descriptions[key]) {
-				throw new Error("Missing description for key " + key);
-			}
-			chromeStrings[key] = {
-				message: localeStrings[key],
-				description: descriptions[key],
-			};
+		const chromePath = path.join(args.in_dir, locale + ".json");
+		const rawChromeStrings = await fs.promises.readFile(chromePath, "utf-8");
+		const chromeStrings = JSON.parse(rawChromeStrings);
+		const flatStrings = {};
+		for (let key of sortedMut(Object.keys(chromeStrings))) {
+			flatStrings[key] = chromeStrings[key].message;
 		}
-		const rawChromeStrings = JSON.stringify(chromeStrings, null, "  ");
-		const chromePath = path.join(args.out_dir, locale + ".json");
-		await fs.promises.writeFile(chromePath, rawChromeStrings, "utf-8");
+		const nestedStrings = flatten.unflatten(flatStrings);
+		const rawNestedStrings = JSON.stringify(nestedStrings, null, "\t");
+		const outPath = path.join(args.out_dir, locale + "." + args.i18next_format);
+		await fs.promises.writeFile(outPath, rawNestedStrings, "utf-8");
 	}
 }
