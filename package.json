@@ -6,6 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
+    "chrome2i18next": "./bin/chrome2i18next.js",
     "i18next2chrome": "./bin/i18next2chrome.js"
   },
   "repository": {
