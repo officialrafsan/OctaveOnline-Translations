@@ -62,7 +62,7 @@ async function main(args) {
 		locales = args.locales;
 	} else {
 		locales = [];
-		const re = new RegExp("(\\w+)\\." + args.i18next_format);
+		const re = new RegExp("([\\w\\-]+)\\." + args.i18next_format);
 		const filenames = await fs.promises.readdir(args.in_dir);
 		for (let filename of filenames) {
 			let match;

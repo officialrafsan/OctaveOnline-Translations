@@ -61,7 +61,7 @@ async function main(args) {
 		locales = args.locales;
 	} else {
 		locales = [];
-		const re = new RegExp("^(\\w+)\\.json");
+		const re = new RegExp("^([\\w\\-]+)\\.json");
 		const filenames = await fs.promises.readdir(args.in_dir);
 		for (let filename of filenames) {
 			let match;
