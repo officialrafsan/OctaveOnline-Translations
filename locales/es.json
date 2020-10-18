@@ -171,9 +171,13 @@
     "message": "Su potencia de {{config.client.app_name}} se ejecuta en un hardware personalizado. Se utiliza bajo la licencia pública general de Affero (AGPL).",
     "description": "Paragraph of body tex"
   },
+  "header.meta.server.title": {
+    "message": "{{config.client.app_name}}",
+    "description": "Site Title (does not need translation)"
+  },
   "header.sidebar.changeemail#body": {
     "message": "¿Ha iniciado la sesión antes, pero necesita cambiar su dirección de correo electrónico? Haga clic en \"Comentarios\" y cree un tíquet. Lo cambiaremos por ti.",
-    "description": "Paragraph of body text"
+    "description": "(OBSOLETE) Paragraph of body text"
   },
   "header.sidebar.changelayout#btn": {
     "message": "Cambie/Restablezca el diseño",
@@ -242,6 +246,10 @@
   "header.sidebar.twitter#btn": {
     "message": "Síguenos en Twitter",
     "description": "Button text"
+  },
+  "header.site.adfallback#body": {
+    "message": "Haga su parte: apoye el Software Libre contribuyendo US$30/mes.",
+    "description": "Text shown when advertisement is unavailable"
   },
   "header.site.menu#btn": {
     "message": "MENÚ",
@@ -472,7 +480,7 @@
     "description": "Rhetorical question asked of the user"
   },
   "modals.upgrade.p3": {
-    "message": "Cada semana, {{config.client.app_name}} conecta a decenas de miles de estudiantes, educadores e investigadores en más de 100 países.\t  No tenemos anuncios ni muros de pago.\t  Si cree en nuestra misión de proporcionar software educativo de forma gratuita, por favor, únase a nosotros apoyando {{config.client.app_name}}  de Patreon.",
+    "message": "Cada semana, {{config.client.app_name}} conecta a decenas de miles de estudiantes, educadores e investigadores en más de 100 países.\t  No tenemos muros de pago.\t  Si cree en nuestra misión de proporcionar software educativo de forma gratuita, por favor, únase a nosotros apoyando {{config.client.app_name}}  de Patreon.",
     "description": "Paragraph of body text; \"Patreon\" should not be translated"
   },
   "modals.upgrade.title": {
