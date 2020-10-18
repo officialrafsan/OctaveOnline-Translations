@@ -248,7 +248,7 @@
     "description": "Button text"
   },
   "header.site.adfallback#body": {
-    "message": "Haga su parte: apoye el Software Libre contribuyendo US$30/mes.",
+    "message": "Haga su parte: apoye el Software Libre contribuyendo con US$3/mes.",
     "description": "Text shown when advertisement is unavailable"
   },
   "header.site.menu#btn": {
