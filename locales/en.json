@@ -177,7 +177,7 @@
   },
   "header.sidebar.changeemail#body": {
     "message": "Signed in before but need to change your email address? Click \"Feedback\" and create a ticket. We will change it for you.",
-    "description": "Paragraph of body text"
+    "description": "(OBSOLETE) Paragraph of body text"
   },
   "header.sidebar.changelayout#btn": {
     "message": "Change/Reset Layout",
@@ -246,6 +246,10 @@
   "header.sidebar.twitter#btn": {
     "message": "Follow on Twitter",
     "description": "Button text"
+  },
+  "header.site.adfallback#body": {
+    "message": "Do your part: support Free Software by contributing US$3/mo.",
+    "description": "Text shown when advertisement is unavailable"
   },
   "header.site.menu#btn": {
     "message": "MENU",
@@ -476,7 +480,7 @@
     "description": "Rhetorical question asked of the user"
   },
   "modals.upgrade.p3": {
-    "message": "Each week, {{config.client.app_name}} connects tens of thousands of students, educators, and researchers in over 100 countries.  We have no ads and no paywall.  If you believe in our mission to provide educational software free of charge, please join us by supporting {{config.client.app_name}} on Patreon.",
+    "message": "Each week, {{config.client.app_name}} connects tens of thousands of students, educators, and researchers in over 100 countries.  We have no paywall.  If you believe in our mission to provide educational software free of charge, please join us by supporting {{config.client.app_name}} on Patreon.",
     "description": "Paragraph of body text; \"Patreon\" should not be translated"
   },
   "modals.upgrade.title": {
