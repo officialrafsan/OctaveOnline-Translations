@@ -177,7 +177,7 @@
   },
   "header.sidebar.changeemail#body": {
     "message": "¿Ha iniciado la sesión antes, pero necesita cambiar su dirección de correo electrónico? Haga clic en \"Comentarios\" y cree un tíquet. Lo cambiaremos por ti.",
-    "description": "Paragraph of body text"
+    "description": "(OBSOLETE) Paragraph of body text"
   },
   "header.sidebar.changelayout#btn": {
     "message": "Cambie/Restablezca el diseño",
