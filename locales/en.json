@@ -177,7 +177,7 @@
   },
   "header.sidebar.changeemail#body": {
     "message": "Signed in before but need to change your email address? Click \"Feedback\" and create a ticket. We will change it for you.",
-    "description": "(OBSOLETE) Paragraph of body text"
+    "description": "Paragraph of body text"
   },
   "header.sidebar.changelayout#btn": {
     "message": "Change/Reset Layout",
