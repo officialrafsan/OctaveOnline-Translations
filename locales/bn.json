@@ -1,0 +1,630 @@
+{
+  "common.caution#label": {
+    "message": "Caution:",
+    "description": "Label, followed by another sentence"
+  },
+  "common.dismiss#btn": {
+    "message": "dismiss",
+    "description": "Button text"
+  },
+  "common.email#ph": {
+    "message": "email address",
+    "description": "Placeholder text for form field"
+  },
+  "common.https#btn": {
+    "message": "Switch to a secured connection (https)",
+    "description": "Button text"
+  },
+  "common.https#p": {
+    "message": "You are using an unsecured connection (http). People might be able to see what you submit.",
+    "description": "Paragraph of body text"
+  },
+  "common.loading#ui": {
+    "message": "Loading…",
+    "description": "Filler text when a component is not ready yet"
+  },
+  "common.password#ph": {
+    "message": "password",
+    "description": "Placeholder text for form field"
+  },
+  "common.submit#btn": {
+    "message": "Submit",
+    "description": "Button text"
+  },
+  "editor.tips.a1": {
+    "message": "Full List",
+    "description": "Link text"
+  },
+  "editor.tips.dd1": {
+    "message": "Show the auto-completion menu",
+    "description": "Description of what a button will do"
+  },
+  "editor.tips.dd2": {
+    "message": "Save the file",
+    "description": "Description of what a button will do"
+  },
+  "editor.tips.dd3": {
+    "message": "Run the file",
+    "description": "Description of what a button will do"
+  },
+  "editor.tips.dd4": {
+    "message": "Set focus to the prompt",
+    "description": "Description of what a button will do"
+  },
+  "editor.tips.p1": {
+    "message": "The files you make on {{config.client.app_name}} will be saved for the next time you visit.",
+    "description": "Paragraph of body text"
+  },
+  "editor.tips.p2": {
+    "message": "Common shortcuts:",
+    "description": "Label, followed by a list"
+  },
+  "editor.tips.subhead1": {
+    "message": "Keyboard Shortcuts",
+    "description": "Section header"
+  },
+  "editor.tips.title": {
+    "message": "Tips & Tricks",
+    "description": "Section header"
+  },
+  "editor.toolbar.create#btn": {
+    "message": "Create empty file",
+    "description": "Button text"
+  },
+  "editor.toolbar.delete#btn": {
+    "message": "DELETE File",
+    "description": "Button text"
+  },
+  "editor.toolbar.download#btn": {
+    "message": "Download File",
+    "description": "Button text"
+  },
+  "editor.toolbar.drop#ui": {
+    "message": "Drop Files Here to Upload",
+    "description": "Instruction for the user"
+  },
+  "editor.toolbar.files#title": {
+    "message": "Files",
+    "description": "Section header"
+  },
+  "editor.toolbar.history#btn": {
+    "message": "File version history",
+    "description": "Button text"
+  },
+  "editor.toolbar.print#btn": {
+    "message": "Print File",
+    "description": "Button text"
+  },
+  "editor.toolbar.refresh#btn": {
+    "message": "Refresh files",
+    "description": "Button text"
+  },
+  "editor.toolbar.rename#btn": {
+    "message": "Rename File",
+    "description": "Button text"
+  },
+  "editor.toolbar.run#btn": {
+    "message": "Run Script",
+    "description": "Button text"
+  },
+  "editor.toolbar.run#ui": {
+    "message": "RUN",
+    "description": "Button text to evaluate a script (appears prominently on page)"
+  },
+  "editor.toolbar.save#btn": {
+    "message": "Save File",
+    "description": "Button text"
+  },
+  "editor.toolbar.share#btn": {
+    "message": "Share File in new Bucket",
+    "description": "Button text"
+  },
+  "editor.toolbar.toolbar#btn": {
+    "message": "Show Toolbar",
+    "description": "Button text"
+  },
+  "editor.toolbar.upload#btn": {
+    "message": "Upload file",
+    "description": "Button text"
+  },
+  "editor.toolbar.wrap#btn": {
+    "message": "Toggle Word Wrap",
+    "description": "Button text"
+  },
+  "editor.unsupported.li1": {
+    "message": "The file type isn't supported in this editor.",
+    "description": "Error text"
+  },
+  "editor.unsupported.li2": {
+    "message": "The file is in a binary format, like images.",
+    "description": "Error text"
+  },
+  "editor.unsupported.li3": {
+    "message": "The file is too large and can't be loaded into the editor.",
+    "description": "Error text"
+  },
+  "editor.unsupported.p1": {
+    "message": "The currently selected file can't be edited online. You can still use the toolbar above to rename, download, and delete the file.  Reasons might include:",
+    "description": "Error text, ending with a label, followed by a list"
+  },
+  "editor.unsupported.title": {
+    "message": "{{config.client.app_name}} Interactive Editor",
+    "description": "Section header"
+  },
+  "header.buckets.delete#btn": {
+    "message": "Delete Bucket",
+    "description": "Button text"
+  },
+  "header.buckets.title": {
+    "message": "Your Buckets:",
+    "description": "Label, followed by a number"
+  },
+  "header.meta.official.desc": {
+    "message": "Create and share scripts for scientific computing with GNU Octave. Free and open-source. Works in your browser, including on Chromebook, iPad, tablet, and smartphone.",
+    "description": "Paragraph of body tex"
+  },
+  "header.meta.official.title": {
+    "message": "{{config.client.app_name}} · Cloud IDE compatible with MATLAB",
+    "description": "Site Title"
+  },
+  "header.meta.server.desc": {
+    "message": "The power of {{config.client.app_name}} run on custom hardware. Used under the AGPL license.",
+    "description": "Paragraph of body tex"
+  },
+  "header.meta.server.title": {
+    "message": "{{config.client.app_name}}",
+    "description": "Site Title (does not need translation)"
+  },
+  "header.sidebar.changeemail#body": {
+    "message": "Signed in before but need to change your email address? Click \"Feedback\" and create a ticket. We will change it for you.",
+    "description": "(OBSOLETE) Paragraph of body text"
+  },
+  "header.sidebar.changelayout#btn": {
+    "message": "Change/Reset Layout",
+    "description": "Button text"
+  },
+  "header.sidebar.changepassword#btn": {
+    "message": "Change Password",
+    "description": "Button text"
+  },
+  "header.sidebar.changetheme#btn": {
+    "message": "Change Theme",
+    "description": "Button text"
+  },
+  "header.sidebar.disablesharing#btn": {
+    "message": "Disable Sharing",
+    "description": "Button text"
+  },
+  "header.sidebar.enablesharing#btn": {
+    "message": "Share Workspace",
+    "description": "Button text"
+  },
+  "header.sidebar.github#btn": {
+    "message": "GitHub Project",
+    "description": "Link text"
+  },
+  "header.sidebar.inlineplots#btn": {
+    "message": "Render New Plots Inline",
+    "description": "Button text"
+  },
+  "header.sidebar.legal#btn": {
+    "message": "Privacy Policy and EULA",
+    "description": "Button text"
+  },
+  "header.sidebar.patreon#btn": {
+    "message": "Upgrade with Patreon",
+    "description": "Button text; \"Patreon\" should not be translated"
+  },
+  "header.sidebar.sharedesc#body": {
+    "message": "Others can use the following link to connect to your workspace.",
+    "description": "Paragraph of body text"
+  },
+  "header.sidebar.signinemail#btn": {
+    "message": "Sign in with Email",
+    "description": "Button text"
+  },
+  "header.sidebar.signingoogle#btn": {
+    "message": "Sign in with Google",
+    "description": "Button text"
+  },
+  "header.sidebar.signinpassword#btn": {
+    "message": "Sign in with Password",
+    "description": "Button text"
+  },
+  "header.sidebar.signout#btn": {
+    "message": "Sign Out",
+    "description": "Button text"
+  },
+  "header.sidebar.support#btn": {
+    "message": "Feedback and Support",
+    "description": "Button text"
+  },
+  "header.sidebar.textwrap#btn": {
+    "message": "Wrap Long Lines in Console",
+    "description": "Button text"
+  },
+  "header.sidebar.twitter#btn": {
+    "message": "Follow on Twitter",
+    "description": "Button text"
+  },
+  "header.site.adfallback#body": {
+    "message": "Do your part: support Free Software by contributing US$3/mo.",
+    "description": "Text shown when advertisement is unavailable"
+  },
+  "header.site.menu#btn": {
+    "message": "MENU",
+    "description": "Button text to show the menu (appears prominently on page)"
+  },
+  "header.students.reenroll#btn": {
+    "message": "Move",
+    "description": "Button text"
+  },
+  "header.students.subhead1": {
+    "message": "Code:",
+    "description": "Label, followed by a list"
+  },
+  "header.students.title": {
+    "message": "Students",
+    "description": "Section header"
+  },
+  "header.students.unenroll#btn": {
+    "message": "Unenroll",
+    "description": "Button text"
+  },
+  "javascript.console.exited#alert": {
+    "message": "Octave Exited. Message:",
+    "description": "Label, followed by an error code"
+  },
+  "javascript.console.payload#alert": {
+    "message": "NOTICE: Execution paused due to large payload",
+    "description": "Paragraph of body text"
+  },
+  "javascript.console.pingtime#label": {
+    "message": "Ping time:",
+    "description": "Label, followed by a number"
+  },
+  "javascript.console.plotwindow#alert": {
+    "message": "This button shows and hides the plot window.  Enter an expression that generates a plot.",
+    "description": "Paragraph of body text with call to action"
+  },
+  "javascript.console.readonly#alert": {
+    "message": "Note: This is a read-only bucket. Changes you make will not be persisted after you close your browser window.",
+    "description": "Paragraph of body text"
+  },
+  "javascript.console.reconnect#btn": {
+    "message": "Click Here to Reconnect",
+    "description": "Button text"
+  },
+  "javascript.console.reconnecting#alert": {
+    "message": "Connection lost.  Attempting to reconnect...",
+    "description": "Paragraph of body text"
+  },
+  "javascript.console.refresh#alert": {
+    "message": "This will reload your files from the server. Any unsaved changes will be lost.",
+    "description": "Paragraph of body text"
+  },
+  "javascript.console.seeurl#label": {
+    "message": "See:",
+    "description": "Label, followed by a URL link to documentation"
+  },
+  "javascript.newfile.helloworld": {
+    "message": "Hello World",
+    "description": "Sample string used in programming"
+  },
+  "javascript.newfile.label": {
+    "message": "Please enter a filename:",
+    "description": "Label for form field"
+  },
+  "javascript.print.p1": {
+    "message": "Printed for:",
+    "description": "Label, followed by a name or email"
+  },
+  "javascript.print.p2": {
+    "message": "Powered by {{config.client.app_name}}",
+    "description": "Body text"
+  },
+  "javascript.rename.alert": {
+    "message": "The specified filename already exists.",
+    "description": "Body text"
+  },
+  "javascript.rename.label": {
+    "message": "Enter a new filename:",
+    "description": "Label for form field"
+  },
+  "javascript.students.course#label": {
+    "message": "Course:",
+    "description": "Label, followed by a course code (like \"Math_101\")"
+  },
+  "javascript.students.enroll.p1": {
+    "message": "You need to sign in to enroll in a course.",
+    "description": "Paragraph of body text"
+  },
+  "javascript.students.enroll.p2": {
+    "message": "When you enroll in a course, the instructors for that course will be able to access the files you save. You can cancel your enrollment at any time by running running the following at the command prompt.",
+    "description": "Paragraph of body text"
+  },
+  "javascript.students.enroll.p3": {
+    "message": "Press Cancel if you don't know what any of this means.",
+    "description": "Press Cancel if you don't know what any of this means."
+  },
+  "javascript.students.name#label": {
+    "message": "Name:",
+    "description": "Label, followed by a name or email"
+  },
+  "javascript.students.reenroll.p1": {
+    "message": "Enter the course code to which you want to move this student:",
+    "description": "Label for form field"
+  },
+  "javascript.students.reenroll.p2": {
+    "message": "The following student is being re-enrolled.  Reload the page to see the update.",
+    "description": "Paragraph of body text"
+  },
+  "javascript.students.reenroll.p3": {
+    "message": "Error: Could not find the course code:",
+    "description": "Label, followed by a course code (like \"Math_101\")"
+  },
+  "javascript.students.unenroll.p1": {
+    "message": "Are you sure that you want to remove the following student from your course?",
+    "description": "Rhetorical question asked of the user"
+  },
+  "javascript.togglesharing.p1": {
+    "message": "You cannot disable sharing as a student enrolled in an {{config.client.app_name}} course code:",
+    "description": "Paragraph of body text, followed by a course code (like \"Math_101\")"
+  },
+  "javascript.togglesharing.p2": {
+    "message": "You need to remove yourself by running this command at at the command prompt:",
+    "description": "Call to action, followed by a computer command"
+  },
+  "modals.changepwd.p1": {
+    "message": "Enter your new password below.  To remove your password and disable password-based logins, leave the password field blank and click \"Save Password\".",
+    "description": "Call to action, paragraph of body text"
+  },
+  "modals.changepwd.submit#btn": {
+    "message": "Save Password",
+    "description": "Button text"
+  },
+  "modals.changepwd.title": {
+    "message": "Change Password",
+    "description": "Button text"
+  },
+  "modals.createbucket.label1": {
+    "message": "Main File:",
+    "description": "Section header, followed by a list"
+  },
+  "modals.createbucket.p1": {
+    "message": "A \"bucket\" is how to publicly share snapshots of {{config.client.app_name}} script or data files.",
+    "description": "Paragraph of body text"
+  },
+  "modals.createbucket.p2": {
+    "message": "Select files and click the right arrow button.",
+    "description": "Call to action, paragraph of body text"
+  },
+  "modals.createbucket.p3": {
+    "message": "The \"main\" script is automatically run when someone views the bucket.",
+    "description": "Paragraph of body text"
+  },
+  "modals.createbucket.p4": {
+    "message": "After clicking below, your browser will refresh into your new bucket.  You can share the URL of the page to which you are redirected.",
+    "description": "Paragraph of body text"
+  },
+  "modals.createbucket.subhead1": {
+    "message": "Optional: Add More Files",
+    "description": "Call to action, section header"
+  },
+  "modals.createbucket.subhead2": {
+    "message": "Files to Add",
+    "description": "Section header, followed by a list"
+  },
+  "modals.createbucket.subhead3": {
+    "message": "Files in Bucket",
+    "description": "Section header, followed by a list"
+  },
+  "modals.createbucket.subhead4": {
+    "message": "Optional: Select Main File",
+    "description": "Call to action, section header"
+  },
+  "modals.createbucket.submit#btn": {
+    "message": "Create Bucket",
+    "description": "Button text"
+  },
+  "modals.createbucket.title": {
+    "message": "Customize Bucket",
+    "description": "Button text"
+  },
+  "modals.email.label1": {
+    "message": "Enter your email address:",
+    "description": "Call to action, form field label"
+  },
+  "modals.email.p1": {
+    "message": "You will be emailed an 11-digit code that you will need to enter on the next screen. If you do not receive your code, please open a support ticket for assistance.",
+    "description": "Paragraph of body text"
+  },
+  "modals.password.p1": {
+    "message": "Use the \"email token\" sign-in option instead. Once you are signed in, use the \"Change Password\" option in the menu to set a new password.",
+    "description": "Call to action, paragraph of body text"
+  },
+  "modals.password.subhead1": {
+    "message": "New user? Forgot your password?",
+    "description": "Rhetorical question asked of the user"
+  },
+  "modals.patience.p1": {
+    "message": "Hmm, looks like the server is busy today!  We'll get you connected before you know it.  Thanks for your patience.",
+    "description": "Paragraph of body text"
+  },
+  "modals.patience.p2": {
+    "message": "Thanks for waiting.  It's not supposed to take this long.  Please double-check your internet connection.  If you are sure that your internet is working, consider contacting support.",
+    "description": "Paragraph of body text"
+  },
+  "modals.upgrade.btn1": {
+    "message": "View Plans",
+    "description": "Button text"
+  },
+  "modals.upgrade.btn2": {
+    "message": "Link Patreon Account",
+    "description": "Button text; \"Patreon\" should not be translated"
+  },
+  "modals.upgrade.btn3": {
+    "message": "Change on Patreon",
+    "description": "Button text; \"Patreon\" should not be translated"
+  },
+  "modals.upgrade.btn4": {
+    "message": "Unlink Patreon Account",
+    "description": "Button text; \"Patreon\" should not be translated"
+  },
+  "modals.upgrade.p1": {
+    "message": "Thank you for your {{-pledgeAmountHTML}} pledge!",
+    "description": "Paragraph of body text"
+  },
+  "modals.upgrade.p2": {
+    "message": "Want to transfer your pledge?",
+    "description": "Rhetorical question asked of the user"
+  },
+  "modals.upgrade.p3": {
+    "message": "Each week, {{config.client.app_name}} connects tens of thousands of students, educators, and researchers in over 100 countries.  We have no paywall.  If you believe in our mission to provide educational software free of charge, please join us by supporting {{config.client.app_name}} on Patreon.",
+    "description": "Paragraph of body text; \"Patreon\" should not be translated"
+  },
+  "modals.upgrade.title": {
+    "message": "Upgrade Account",
+    "description": "Button text"
+  },
+  "panel.output.github#btn": {
+    "message": "{{projectName}} on GitHub",
+    "description": "Link text"
+  },
+  "panel.output.upgraded#ui": {
+    "message": "Upgraded session",
+    "description": "Description when hovering over an image"
+  },
+  "panel.plot.description#ui": {
+    "message": "Plot: Line {{-lineNumberHTML}}",
+    "description": "Paragraph of body text"
+  },
+  "panel.plot.download#btn": {
+    "message": "Download Plot as Image",
+    "description": "Button text"
+  },
+  "panel.plot.expand#btn": {
+    "message": "Expand Plot Window",
+    "description": "Button text"
+  },
+  "panel.plot.next#btn": {
+    "message": "Next Plot",
+    "description": "Button text"
+  },
+  "panel.plot.prev#btn": {
+    "message": "Previous Plot",
+    "description": "Button text"
+  },
+  "panel.plot.zoom#btn": {
+    "message": "Click to zoom",
+    "description": "Button text"
+  },
+  "panel.prompt.add#btn": {
+    "message": "Add {{-numSecondsHTML}} Seconds",
+    "description": "Button text with interpolated number; for example, \"Add 15 seconds\""
+  },
+  "panel.prompt.resume#btn": {
+    "message": "Resume Execution",
+    "description": "Button text"
+  },
+  "panel.prompt.seconds#ui": {
+    "message": "Seconds Remaining:",
+    "description": "Label, followed by a number"
+  },
+  "panel.prompt.sigint#btn": {
+    "message": "Stop Currently Running Command (send SIGINT)",
+    "description": "Button text; \"SIGINT\" should not be translated"
+  },
+  "panel.prompt.upgrade#btn": {
+    "message": "Upgrade",
+    "description": "Button text"
+  },
+  "panel.vars.title": {
+    "message": "Vars",
+    "description": "Section header"
+  },
+  "promos.bucketcreate.p1": {
+    "message": "Share snapshots of your script files!",
+    "description": "Call to action, paragraph of body text"
+  },
+  "promos.bucketcreate.p2": {
+    "message": "Click the icon to create a new bucket.",
+    "description": "Call to action, paragraph of body text"
+  },
+  "promos.bucketsbacklink.p1": {
+    "message": "Sign in to create your own buckets and use the rest of {{config.client.app_name}}.",
+    "description": "Call to action, paragraph of body text"
+  },
+  "promos.instructor.p1": {
+    "message": "Did you know you can use {{config.client.app_name}} in your class?",
+    "description": "Paragraph of body text"
+  },
+  "promos.instructor.p2": {
+    "message": "Open a support ticket to inquire about how we can set you up as an instructor.",
+    "description": "Call to action, paragraph of body text"
+  },
+  "promos.login.p1": {
+    "message": "Want to use scripts?",
+    "description": "Rhetorical question asked of the user"
+  },
+  "promos.login.p2": {
+    "message": "Sign in to create and share script files.",
+    "description": "Call to action, paragraph of body text"
+  },
+  "promos.prompt.btn1": {
+    "message": "Sign In",
+    "description": "Call to action, button text"
+  },
+  "promos.prompt.p1": {
+    "message": "Type expressions here and press enter.",
+    "description": "Paragraph of body text"
+  },
+  "promos.prompt.p2": {
+    "message": "To use script files:",
+    "description": "Label, followed by a call to action button"
+  },
+  "promos.prompt.title": {
+    "message": "Octave Command Prompt",
+    "description": "Section header"
+  },
+  "promos.sharing.p1": {
+    "message": "Set up sharing so you can collaboratively edit your script files in real time, like Google Docs.",
+    "description": "Call to action, paragraph of body text"
+  },
+  "promos.sharing.subhead1": {
+    "message": "Tip:",
+    "description": "Section header"
+  },
+  "promos.sync.p1": {
+    "message": "View historical versions of your script files!",
+    "description": "Call to action, paragraph of body text"
+  },
+  "promos.sync.p2": {
+    "message": "Click the icon for more info.",
+    "description": "Call to action, paragraph of body text"
+  },
+  "promos.welcome.p1": {
+    "message": "{{config.client.app_name}} is a web UI for GNU Octave, the open-source alternative to MATLAB.  Thousands of students, educators, and researchers from around the world use {{config.client.app_name}} each day for studying machine learning, control systems, numerical methods, and more.",
+    "description": "Paragraph of body text"
+  },
+  "promos.welcome.p2": {
+    "message": "Type commands in the prompt like you would in your local copy of GNU Octave or MATLAB.",
+    "description": "Paragraph of body text describing what you can do on the site"
+  },
+  "promos.welcome.p3": {
+    "message": "Plot charts and graphs.",
+    "description": "Paragraph of body text describing what you can do on the site"
+  },
+  "promos.welcome.p4": {
+    "message": "Sign in for more features: script files, buckets, real-time collaboration like Google Docs, extended runtime, and more.",
+    "description": "Paragraph of body text with a call to action and also describing what you can do on the site"
+  },
+  "promos.welcome.start#btn": {
+    "message": "Start Using {{config.client.app_name}}",
+    "description": "Call to action, button text"
+  },
+  "promos.welcome.title": {
+    "message": "Welcome to {{config.client.app_name}}",
+    "description": "Section header (shown prominently on page)"
+  }
+}
