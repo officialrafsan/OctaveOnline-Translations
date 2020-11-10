@@ -1,58 +1,58 @@
 {
   "common.caution#label": {
-    "message": "Caution:",
+    "message": "সাবধান:",
     "description": "Label, followed by another sentence"
   },
   "common.dismiss#btn": {
-    "message": "dismiss",
+    "message": "বন্ধ করা",
     "description": "Button text"
   },
   "common.email#ph": {
-    "message": "email address",
+    "message": "ইমেল ঠিকানা",
     "description": "Placeholder text for form field"
   },
   "common.https#btn": {
-    "message": "Switch to a secured connection (https)",
+    "message": "সুরক্ষিত সংযোগে স্যুইচ করুন (https)",
     "description": "Button text"
   },
   "common.https#p": {
-    "message": "You are using an unsecured connection (http). People might be able to see what you submit.",
+    "message": "আপনি একটি সুরক্ষিত সংযোগ ব্যবহার করছেন (http). আপনার জমা দেওয়া বিষয়গুলি লোকেরা দেখতে সক্ষম হতে পারে।",
     "description": "Paragraph of body text"
   },
   "common.loading#ui": {
-    "message": "Loading…",
+    "message": "লোডিং…",
     "description": "Filler text when a component is not ready yet"
   },
   "common.password#ph": {
-    "message": "password",
+    "message": "পাসওয়ার্ড",
     "description": "Placeholder text for form field"
   },
   "common.submit#btn": {
-    "message": "Submit",
+    "message": "সাবমিট",
     "description": "Button text"
   },
   "editor.tips.a1": {
-    "message": "Full List",
+    "message": "সম্পুর্ণ তালিকা",
     "description": "Link text"
   },
   "editor.tips.dd1": {
-    "message": "Show the auto-completion menu",
+    "message": "স্বতঃ-সমাপ্তি মেনুটি দেখান",
     "description": "Description of what a button will do"
   },
   "editor.tips.dd2": {
-    "message": "Save the file",
+    "message": "ফাইল সেভ করুন",
     "description": "Description of what a button will do"
   },
   "editor.tips.dd3": {
-    "message": "Run the file",
+    "message": "ফাইল রান করুন",
     "description": "Description of what a button will do"
   },
   "editor.tips.dd4": {
-    "message": "Set focus to the prompt",
+    "message": "প্রম্পটে ফোকাস সেট করুন",
     "description": "Description of what a button will do"
   },
   "editor.tips.p1": {
-    "message": "The files you make on {{config.client.app_name}} will be saved for the next time you visit.",
+    "message": "আপনার {{config.client.app_name}} ওপর কাজ করা ফাইলগুলি পরের বার আপনি দেখার সময় স্বয়ংক্রিয়ভাবে সংরক্ষণ করে রাখা থাকবে।",
     "description": "Paragraph of body text"
   },
   "editor.tips.p2": {
