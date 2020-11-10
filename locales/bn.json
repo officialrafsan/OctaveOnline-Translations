@@ -4,11 +4,11 @@
     "description": "Label, followed by another sentence"
   },
   "common.dismiss#btn": {
-    "message": "বন্ধ করা",
+    "message": "ডিসমিস",
     "description": "Button text"
   },
   "common.email#ph": {
-    "message": "ইমেল ঠিকানা",
+    "message": "ইমেইল এড্রেস",
     "description": "Placeholder text for form field"
   },
   "common.https#btn": {
@@ -88,87 +88,87 @@
     "description": "Section header"
   },
   "editor.toolbar.history#btn": {
-    "message": "File version history",
+    "message": "ফাইল ভার্সন হিস্ট্রি",
     "description": "Button text"
   },
   "editor.toolbar.print#btn": {
-    "message": "Print File",
+    "message": "প্রিন্ট ফাইল",
     "description": "Button text"
   },
   "editor.toolbar.refresh#btn": {
-    "message": "Refresh files",
+    "message": "রিফ্রেশ ফাইলস",
     "description": "Button text"
   },
   "editor.toolbar.rename#btn": {
-    "message": "Rename File",
+    "message": "রিনেম ফাইল",
     "description": "Button text"
   },
   "editor.toolbar.run#btn": {
-    "message": "Run Script",
+    "message": "রান স্ক্রিপ্ট",
     "description": "Button text"
   },
   "editor.toolbar.run#ui": {
-    "message": "RUN",
+    "message": "রান",
     "description": "Button text to evaluate a script (appears prominently on page)"
   },
   "editor.toolbar.save#btn": {
-    "message": "Save File",
+    "message": "সেভ ফাইল",
     "description": "Button text"
   },
   "editor.toolbar.share#btn": {
-    "message": "Share File in new Bucket",
+    "message": "নতুন বাকেটে ফাইল শেয়ার করুন",
     "description": "Button text"
   },
   "editor.toolbar.toolbar#btn": {
-    "message": "Show Toolbar",
+    "message": "টুলবার প্রদর্শন করুন",
     "description": "Button text"
   },
   "editor.toolbar.upload#btn": {
-    "message": "Upload file",
+    "message": "ফাইল আপলোড করুন",
     "description": "Button text"
   },
   "editor.toolbar.wrap#btn": {
-    "message": "Toggle Word Wrap",
+    "message": "টগ্ল ওয়ার্ড মোড়ানো",
     "description": "Button text"
   },
   "editor.unsupported.li1": {
-    "message": "The file type isn't supported in this editor.",
+    "message": "এই সম্পাদকটিতে ফাইলের ধরণ সমর্থিত নয়।",
     "description": "Error text"
   },
   "editor.unsupported.li2": {
-    "message": "The file is in a binary format, like images.",
+    "message": "ফাইলগুলি চিত্রগুলির মতো বাইনারি বিন্যাসে রয়েছে।",
     "description": "Error text"
   },
   "editor.unsupported.li3": {
-    "message": "The file is too large and can't be loaded into the editor.",
+    "message": "ফাইলটি খুব বড় এবং সম্পাদকের মধ্যে লোড করা যাবে না।",
     "description": "Error text"
   },
   "editor.unsupported.p1": {
-    "message": "The currently selected file can't be edited online. You can still use the toolbar above to rename, download, and delete the file.  Reasons might include:",
+    "message": "বর্তমানে নির্বাচিত ফাইলটি অনলাইনে সম্পাদনা করা যাবে না। আপনি ফাইলটির নাম পরিবর্তন করতে, ডাউনলোড করতে এবং মুছতে এখনও উপরের টুলবার ব্যবহার করতে পারেন।  অন্তর্ভুক্ত কারণগুলি হলো:",
     "description": "Error text, ending with a label, followed by a list"
   },
   "editor.unsupported.title": {
-    "message": "{{config.client.app_name}} Interactive Editor",
+    "message": "{{config.client.app_name}} ইন্টারেক্টিভ এডিটর",
     "description": "Section header"
   },
   "header.buckets.delete#btn": {
-    "message": "Delete Bucket",
+    "message": "ডিলিট বাকেট",
     "description": "Button text"
   },
   "header.buckets.title": {
-    "message": "Your Buckets:",
+    "message": "আপনার বাকেট:",
     "description": "Label, followed by a number"
   },
   "header.meta.official.desc": {
-    "message": "Create and share scripts for scientific computing with GNU Octave. Free and open-source. Works in your browser, including on Chromebook, iPad, tablet, and smartphone.",
+    "message": "GNU অকটাভের সাথে বৈজ্ঞানিক কম্পিউটিংয়ের জন্য স্ক্রিপ্টগুলি তৈরি করুন এবং ভাগ করুন। ফ্রি এবং ওপেন সোর্স। ক্রোমবুক, আইপ্যাড, ট্যাবলেট এবং স্মার্টফোন সহ আপনার ব্রাউজারে কাজ করে।",
     "description": "Paragraph of body tex"
   },
   "header.meta.official.title": {
-    "message": "{{config.client.app_name}} · Cloud IDE compatible with MATLAB",
+    "message": "{{config.client.app_name}} · ক্লাউড IDE ম্যাটল্যাবের সাথে সামঞ্জস্যপূর্ণ",
     "description": "Site Title"
   },
   "header.meta.server.desc": {
-    "message": "The power of {{config.client.app_name}} run on custom hardware. Used under the AGPL license.",
+    "message": "{{config.client.app_name}} এর শক্তি কাস্টম হার্ডওয়্যারটিতে চালিত হয়। AGPL লাইসেন্সের আওতায় ব্যবহৃত হয়।",
     "description": "Paragraph of body tex"
   },
   "header.meta.server.title": {
@@ -176,235 +176,235 @@
     "description": "Site Title (does not need translation)"
   },
   "header.sidebar.changeemail#body": {
-    "message": "Signed in before but need to change your email address? Click \"Feedback\" and create a ticket. We will change it for you.",
+    "message": "আগে সাইন ইন করেছেন কিন্তু এখন আপনার ইমেল ঠিকানাটি পরিবর্তন করতে চান? ক্লিক \"ফিডব্যাক\" এবং একটি টিকিট তৈরি করুন। আমরা এটা পরিবর্তন করতে আপনাকে সাহায্য করবো।",
     "description": "(OBSOLETE) Paragraph of body text"
   },
   "header.sidebar.changelayout#btn": {
-    "message": "Change/Reset Layout",
+    "message": "চেঞ্জ/রিসেট লেআউট",
     "description": "Button text"
   },
   "header.sidebar.changepassword#btn": {
-    "message": "Change Password",
+    "message": "পাসওয়ার্ড পরিবর্তন করুন",
     "description": "Button text"
   },
   "header.sidebar.changetheme#btn": {
-    "message": "Change Theme",
+    "message": "থিম পরিবর্তন করুন",
     "description": "Button text"
   },
   "header.sidebar.disablesharing#btn": {
-    "message": "Disable Sharing",
+    "message": "শেয়ারিং অক্ষম করুন",
     "description": "Button text"
   },
   "header.sidebar.enablesharing#btn": {
-    "message": "Share Workspace",
+    "message": "কর্মক্ষেত্র ভাগ করুন",
     "description": "Button text"
   },
   "header.sidebar.github#btn": {
-    "message": "GitHub Project",
+    "message": "গিটহাব প্রকল্প",
     "description": "Link text"
   },
   "header.sidebar.inlineplots#btn": {
-    "message": "Render New Plots Inline",
+    "message": "নতুন প্লটস ইনলাইন রেন্ডার করুন",
     "description": "Button text"
   },
   "header.sidebar.legal#btn": {
-    "message": "Privacy Policy and EULA",
+    "message": "প্রাইভেসী পলিসি এবং EULA",
     "description": "Button text"
   },
   "header.sidebar.patreon#btn": {
-    "message": "Upgrade with Patreon",
+    "message": "Patreon সাথে আপগ্রেড করুন",
     "description": "Button text; \"Patreon\" should not be translated"
   },
   "header.sidebar.sharedesc#body": {
-    "message": "Others can use the following link to connect to your workspace.",
+    "message": "অন্যরা আপনার কর্মক্ষেত্রের সাথে সংযোগ করতে নীচের লিঙ্কটি ব্যবহার করতে পারেন।",
     "description": "Paragraph of body text"
   },
   "header.sidebar.signinemail#btn": {
-    "message": "Sign in with Email",
+    "message": "ইমেল দিয়ে সাইন ইন করুন",
     "description": "Button text"
   },
   "header.sidebar.signingoogle#btn": {
-    "message": "Sign in with Google",
+    "message": "ইমেল দিয়ে সাইন ইন করুন",
     "description": "Button text"
   },
   "header.sidebar.signinpassword#btn": {
-    "message": "Sign in with Password",
+    "message": "পাসওয়ার্ড দিয়ে সাইন ইন করুন",
     "description": "Button text"
   },
   "header.sidebar.signout#btn": {
-    "message": "Sign Out",
+    "message": "সাইন আউট",
     "description": "Button text"
   },
   "header.sidebar.support#btn": {
-    "message": "Feedback and Support",
+    "message": "ফিডব্যাক এবং সাপোর্ট",
     "description": "Button text"
   },
   "header.sidebar.textwrap#btn": {
-    "message": "Wrap Long Lines in Console",
+    "message": "কনসোলে লম্বা লাইনগুলি মোড়ান।",
     "description": "Button text"
   },
   "header.sidebar.twitter#btn": {
-    "message": "Follow on Twitter",
+    "message": "টুইটারে অনুসরণ করুন",
     "description": "Button text"
   },
   "header.site.adfallback#body": {
-    "message": "Do your part: support Free Software by contributing US$3/mo.",
+    "message": "আপনার অংশটি করুন: মার্কিন ডলার $3/প্রতি মাস অবদান রেখে ফ্রি সফটওয়্যারটি সমর্থন করুন।",
     "description": "Text shown when advertisement is unavailable"
   },
   "header.site.menu#btn": {
-    "message": "MENU",
+    "message": "মেনু",
     "description": "Button text to show the menu (appears prominently on page)"
   },
   "header.students.reenroll#btn": {
-    "message": "Move",
+    "message": "সরান",
     "description": "Button text"
   },
   "header.students.subhead1": {
-    "message": "Code:",
+    "message": "কোড:",
     "description": "Label, followed by a list"
   },
   "header.students.title": {
-    "message": "Students",
+    "message": "স্টুডেন্টস",
     "description": "Section header"
   },
   "header.students.unenroll#btn": {
-    "message": "Unenroll",
+    "message": "তালিকাভুক্ত করা",
     "description": "Button text"
   },
   "javascript.console.exited#alert": {
-    "message": "Octave Exited. Message:",
+    "message": "অক্টাভে উত্তেজিত। বার্তা:",
     "description": "Label, followed by an error code"
   },
   "javascript.console.payload#alert": {
-    "message": "NOTICE: Execution paused due to large payload",
+    "message": "বিজ্ঞপ্তি: বড় পেলোডের কারণে এক্সেকিউশনে বিরতি দেওয়া হয়েছে",
     "description": "Paragraph of body text"
   },
   "javascript.console.pingtime#label": {
-    "message": "Ping time:",
+    "message": "পিং টাইম:",
     "description": "Label, followed by a number"
   },
   "javascript.console.plotwindow#alert": {
-    "message": "This button shows and hides the plot window.  Enter an expression that generates a plot.",
+    "message": "এই বোতামটি প্লট উইন্ডোটি দেখায় এবং আড়াল করে। একটি অনুভূতি প্রবেশ করান যা একটি প্লট তৈরি করে।",
     "description": "Paragraph of body text with call to action"
   },
   "javascript.console.readonly#alert": {
-    "message": "Note: This is a read-only bucket. Changes you make will not be persisted after you close your browser window.",
+    "message": "বিঃদ্রঃ: এটি কেবল পঠনযোগ্য বাকেট। আপনার ব্রাউজার উইন্ডোটি বন্ধ করার পরে আপনি যে পরিবর্তনগুলি করেন তা অক্ষত থাকবে না।",
     "description": "Paragraph of body text"
   },
   "javascript.console.reconnect#btn": {
-    "message": "Click Here to Reconnect",
+    "message": "সংযোগ করতে এখানে ক্লিক করুন",
     "description": "Button text"
   },
   "javascript.console.reconnecting#alert": {
-    "message": "Connection lost.  Attempting to reconnect...",
+    "message": "কানেকশন লস্ট।  পুনরায় সংযোগ করার চেষ্টা করা হচ্ছে...",
     "description": "Paragraph of body text"
   },
   "javascript.console.refresh#alert": {
-    "message": "This will reload your files from the server. Any unsaved changes will be lost.",
+    "message": "এটি সার্ভার থেকে আপনার ফাইলগুলি পুনরায় লোড করবে। সংরক্ষণ না করা কোনও পরিবর্তন নষ্ট হবে।",
     "description": "Paragraph of body text"
   },
   "javascript.console.seeurl#label": {
-    "message": "See:",
+    "message": "দেখ:",
     "description": "Label, followed by a URL link to documentation"
   },
   "javascript.newfile.helloworld": {
-    "message": "Hello World",
+    "message": "হ্যালো ওয়ার্ল্ড",
     "description": "Sample string used in programming"
   },
   "javascript.newfile.label": {
-    "message": "Please enter a filename:",
+    "message": "দয়া করে একটি ফাইলের নাম লিখুন:",
     "description": "Label for form field"
   },
   "javascript.print.p1": {
-    "message": "Printed for:",
+    "message": "প্রিন্টেড ফর:",
     "description": "Label, followed by a name or email"
   },
   "javascript.print.p2": {
-    "message": "Powered by {{config.client.app_name}}",
+    "message": "{{config.client.app_name}} দ্বারা চালিত",
     "description": "Body text"
   },
   "javascript.rename.alert": {
-    "message": "The specified filename already exists.",
+    "message": "নির্দিষ্ট ফাইলের নাম ইতিমধ্যে বিদ্যমান।",
     "description": "Body text"
   },
   "javascript.rename.label": {
-    "message": "Enter a new filename:",
+    "message": "একটি নতুন ফাইলের নাম লিখুন:",
     "description": "Label for form field"
   },
   "javascript.students.course#label": {
-    "message": "Course:",
+    "message": "কোর্স:",
     "description": "Label, followed by a course code (like \"Math_101\")"
   },
   "javascript.students.enroll.p1": {
-    "message": "You need to sign in to enroll in a course.",
+    "message": "কোনও কোর্সে ভর্তির জন্য আপনাকে সাইন ইন করতে হবে।",
     "description": "Paragraph of body text"
   },
   "javascript.students.enroll.p2": {
-    "message": "When you enroll in a course, the instructors for that course will be able to access the files you save. You can cancel your enrollment at any time by running running the following at the command prompt.",
+    "message": "আপনি যখন কোনও কোর্সে ভর্তি হবেন, তখন সেই কোর্সের প্রশিক্ষকগণ আপনার সংরক্ষণ করা ফাইলগুলিতে অ্যাক্সেস করতে সক্ষম হবেন। কমান্ড প্রম্পটে নিম্নলিখিতটি চালিয়ে আপনি যে কোনও সময় আপনার তালিকাভুক্তি বাতিল করতে পারেন।",
     "description": "Paragraph of body text"
   },
   "javascript.students.enroll.p3": {
-    "message": "Press Cancel if you don't know what any of this means.",
+    "message": "আপনি যদি এর কোনও অর্থ জানেন না তবে Cancel বা বাতিল টিপুন।",
     "description": "Press Cancel if you don't know what any of this means."
   },
   "javascript.students.name#label": {
-    "message": "Name:",
+    "message": "নাম:",
     "description": "Label, followed by a name or email"
   },
   "javascript.students.reenroll.p1": {
-    "message": "Enter the course code to which you want to move this student:",
+    "message": "আপনি যে শিক্ষার্থীর কাছে যেতে চান সেই কোর্স কোডটি প্রবেশ করুন:",
     "description": "Label for form field"
   },
   "javascript.students.reenroll.p2": {
-    "message": "The following student is being re-enrolled.  Reload the page to see the update.",
+    "message": "নিম্নলিখিত ছাত্র পুনরায় তালিকাভুক্ত হচ্ছে।  আপডেটটি দেখতে পেজটি পুনরায় লোড করুন।",
     "description": "Paragraph of body text"
   },
   "javascript.students.reenroll.p3": {
-    "message": "Error: Could not find the course code:",
+    "message": "এরর: কোর্স কোডটি খুঁজে পাওয়া গেল না:",
     "description": "Label, followed by a course code (like \"Math_101\")"
   },
   "javascript.students.unenroll.p1": {
-    "message": "Are you sure that you want to remove the following student from your course?",
+    "message": "আপনি কি নিশ্চিত যে আপনি নিম্নলিখিত ছাত্রটি আপনার কোর্স থেকে সরাতে চান?",
     "description": "Rhetorical question asked of the user"
   },
   "javascript.togglesharing.p1": {
-    "message": "You cannot disable sharing as a student enrolled in an {{config.client.app_name}} course code:",
+    "message": "আপনি {{config.client.app_name}} কোর্স কোডটিতে তালিকাভুক্ত শিক্ষার্থী হিসাবে ভাগ করে নেওয়া অক্ষম করতে পারবেন না:",
     "description": "Paragraph of body text, followed by a course code (like \"Math_101\")"
   },
   "javascript.togglesharing.p2": {
-    "message": "You need to remove yourself by running this command at at the command prompt:",
+    "message": "কমান্ড প্রম্পটে এই কমান্ডটি চালিয়ে নিজেকে রিমুভ করতে হবে:",
     "description": "Call to action, followed by a computer command"
   },
   "modals.changepwd.p1": {
-    "message": "Enter your new password below.  To remove your password and disable password-based logins, leave the password field blank and click \"Save Password\".",
+    "message": "নীচে আপনার নতুন পাসওয়ার্ডটি এন্টার করুন।  আপনার পাসওয়ার্ড অপসারণ করতে এবং পাসওয়ার্ড-ভিত্তিক লগইনগুলি অক্ষম করতে, পাসওয়ার্ড ক্ষেত্রটি ফাঁকা রেখে \"সেভ পাসওয়ার্ড\". এ ক্লিক করুন।",
     "description": "Call to action, paragraph of body text"
   },
   "modals.changepwd.submit#btn": {
-    "message": "Save Password",
+    "message": "সেভ পাসওয়ার্ড",
     "description": "Button text"
   },
   "modals.changepwd.title": {
-    "message": "Change Password",
+    "message": "চেঞ্জ পাসওয়ার্ড",
     "description": "Button text"
   },
   "modals.createbucket.label1": {
-    "message": "Main File:",
+    "message": "মূল ফাইল:",
     "description": "Section header, followed by a list"
   },
   "modals.createbucket.p1": {
-    "message": "A \"bucket\" is how to publicly share snapshots of {{config.client.app_name}} script or data files.",
+    "message": "একটি \"বাকেট\" হ'ল কীভাবে {{config.client.app_name}} স্ক্রিপ্ট বা ডেটা ফাইলগুলির স্ন্যাপশট প্রকাশ্যে ভাগ করা যায়।",
     "description": "Paragraph of body text"
   },
   "modals.createbucket.p2": {
-    "message": "Select files and click the right arrow button.",
+    "message": "ফাইলগুলি নির্বাচন করুন এবং ডান তীর বোতামটি ক্লিক করুন।",
     "description": "Call to action, paragraph of body text"
   },
   "modals.createbucket.p3": {
-    "message": "The \"main\" script is automatically run when someone views the bucket.",
+    "message": "কেউ বাকেট দেখলে \"মূল\" স্ক্রিপ্টটি স্বয়ংক্রিয়ভাবে চালিত হয়।",
     "description": "Paragraph of body text"
   },
   "modals.createbucket.p4": {
-    "message": "After clicking below, your browser will refresh into your new bucket.  You can share the URL of the page to which you are redirected.",
+    "message": "নীচে ক্লিক করার পরে, আপনার ব্রাউজারটি আপনার নতুন বাকেট রিফ্রেশ করবে।  আপনাকে যে পেজটিতে পুনঃনির্দেশিত করা হয়েছে আপনি তার URL শেয়ার করতে পারেন।",
     "description": "Paragraph of body text"
   },
   "modals.createbucket.subhead1": {
