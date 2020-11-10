@@ -56,35 +56,35 @@
     "description": "Paragraph of body text"
   },
   "editor.tips.p2": {
-    "message": "Common shortcuts:",
+    "message": "সাধারণ শর্টকাট:",
     "description": "Label, followed by a list"
   },
   "editor.tips.subhead1": {
-    "message": "Keyboard Shortcuts",
+    "message": "কীবোর্ড শর্টকাট",
     "description": "Section header"
   },
   "editor.tips.title": {
-    "message": "Tips & Tricks",
+    "message": "টিপস ও ট্রিকস",
     "description": "Section header"
   },
   "editor.toolbar.create#btn": {
-    "message": "Create empty file",
+    "message": "এম্টী ফাইল তৈরি করুন",
     "description": "Button text"
   },
   "editor.toolbar.delete#btn": {
-    "message": "DELETE File",
+    "message": "ডিলিট ফাইল",
     "description": "Button text"
   },
   "editor.toolbar.download#btn": {
-    "message": "Download File",
+    "message": "ডাউনলোড ফাইল",
     "description": "Button text"
   },
   "editor.toolbar.drop#ui": {
-    "message": "Drop Files Here to Upload",
+    "message": "ফাইল আপলোড করার জন্য এখানে রাখুন",
     "description": "Instruction for the user"
   },
   "editor.toolbar.files#title": {
-    "message": "Files",
+    "message": "ফাইলস",
     "description": "Section header"
   },
   "editor.toolbar.history#btn": {
