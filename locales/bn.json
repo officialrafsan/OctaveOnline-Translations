@@ -408,203 +408,203 @@
     "description": "Paragraph of body text"
   },
   "modals.createbucket.subhead1": {
-    "message": "Optional: Add More Files",
+    "message": "ঐচ্ছিক: আরও ফাইল যুক্ত করুন",
     "description": "Call to action, section header"
   },
   "modals.createbucket.subhead2": {
-    "message": "Files to Add",
+    "message": "যোগ করার জন্য ফাইল",
     "description": "Section header, followed by a list"
   },
   "modals.createbucket.subhead3": {
-    "message": "Files in Bucket",
+    "message": "বাকেটের মধ্যে ফাইলস",
     "description": "Section header, followed by a list"
   },
   "modals.createbucket.subhead4": {
-    "message": "Optional: Select Main File",
+    "message": "ঐচ্ছিক: প্রধান ফাইলটি নির্বাচন করুন",
     "description": "Call to action, section header"
   },
   "modals.createbucket.submit#btn": {
-    "message": "Create Bucket",
+    "message": "বাকেট তৈরি করুন",
     "description": "Button text"
   },
   "modals.createbucket.title": {
-    "message": "Customize Bucket",
+    "message": "বাকেট কাস্টমাইজ করুন",
     "description": "Button text"
   },
   "modals.email.label1": {
-    "message": "Enter your email address:",
+    "message": "আপনার ইমেইল এড্রেস এন্টার করুন:",
     "description": "Call to action, form field label"
   },
   "modals.email.p1": {
-    "message": "You will be emailed an 11-digit code that you will need to enter on the next screen. If you do not receive your code, please open a support ticket for assistance.",
+    "message": "আপনাকে পরবর্তী স্ক্রিনে একটি 11-সংখ্যার কোড ইনপুট করতে হবে যেটা আপনাকে ইমেল করা হবে। আপনি যদি আপনার কোড না পান তবে দয়া করে সহায়তার জন্য একটি টিকিট খুলুন।",
     "description": "Paragraph of body text"
   },
   "modals.password.p1": {
-    "message": "Use the \"email token\" sign-in option instead. Once you are signed in, use the \"Change Password\" option in the menu to set a new password.",
+    "message": "পরিবর্তে \"ইমেইল টোকেন\" সাইন-ইন বিকল্পটি ব্যবহার করুন। আপনি একবার সাইন ইন হয়ে গেলে, নতুন পাসওয়ার্ড সেট করতে মেনুতে \"চেঞ্জ পাসওয়ার্ড\" বিকল্পটি ব্যবহার করুন।",
     "description": "Call to action, paragraph of body text"
   },
   "modals.password.subhead1": {
-    "message": "New user? Forgot your password?",
+    "message": "নিউ ইউসার? পাসওয়ার্ড ভুলে গেছেন?",
     "description": "Rhetorical question asked of the user"
   },
   "modals.patience.p1": {
-    "message": "Hmm, looks like the server is busy today!  We'll get you connected before you know it.  Thanks for your patience.",
+    "message": "হুম, মনে হচ্ছে সার্ভারটি আজ ব্যস্ত!  আপনার জানার আগে আমরা আপনাকে সংযুক্ত করব।  আপনার ধৈর্য্যের জন্য ধন্যবাদ।",
     "description": "Paragraph of body text"
   },
   "modals.patience.p2": {
-    "message": "Thanks for waiting.  It's not supposed to take this long.  Please double-check your internet connection.  If you are sure that your internet is working, consider contacting support.",
+    "message": "অপেক্ষা করার জন্য ধন্যবাদ।  এটি বেশি সময় নেওয়ার কথা নয়।  আপনার ইন্টারনেট সংযোগটি ডাবল-চেক করুন।  আপনি যদি নিশ্চিত হন যে আপনার ইন্টারনেট কাজ করছে, তবে সহায়তার সাথে যোগাযোগ করার বিষয়টি বিবেচনা করুন।",
     "description": "Paragraph of body text"
   },
   "modals.upgrade.btn1": {
-    "message": "View Plans",
+    "message": "পরিকল্পনা দেখুন",
     "description": "Button text"
   },
   "modals.upgrade.btn2": {
-    "message": "Link Patreon Account",
+    "message": "Patreon অ্যাকাউন্ট লিঙ্ক করুন",
     "description": "Button text; \"Patreon\" should not be translated"
   },
   "modals.upgrade.btn3": {
-    "message": "Change on Patreon",
+    "message": "Patreon পরিবর্তন",
     "description": "Button text; \"Patreon\" should not be translated"
   },
   "modals.upgrade.btn4": {
-    "message": "Unlink Patreon Account",
+    "message": "Patreon অ্যাকাউন্টটি লিঙ্কমুক্ত করুন",
     "description": "Button text; \"Patreon\" should not be translated"
   },
   "modals.upgrade.p1": {
-    "message": "Thank you for your {{-pledgeAmountHTML}} pledge!",
+    "message": "আপনার {{-pledgeAmountHTML}} অঙ্গীকারের জন্য আপনাকে ধন্যবাদ!",
     "description": "Paragraph of body text"
   },
   "modals.upgrade.p2": {
-    "message": "Want to transfer your pledge?",
+    "message": "আপনার প্রতিশ্রুতি স্থানান্তর করতে চান?",
     "description": "Rhetorical question asked of the user"
   },
   "modals.upgrade.p3": {
-    "message": "Each week, {{config.client.app_name}} connects tens of thousands of students, educators, and researchers in over 100 countries.  We have no paywall.  If you believe in our mission to provide educational software free of charge, please join us by supporting {{config.client.app_name}} on Patreon.",
+    "message": "প্রতি সপ্তাহে, {{config.client.app_name}} 100 টিরও বেশি দেশে কয়েক হাজার শিক্ষার্থী, শিক্ষাবিদ এবং গবেষককে সংযুক্ত করে।  আমাদের কোনও পেওয়াল নেই।  আপনি যদি নিখরচায় শিক্ষাগত সফ্টওয়্যার সরবরাহ করার আমাদের মিশনে বিশ্বাসী হন তবে দয়া করে Patreon-এ {{config.client.app_name}} সমর্থন করে আমাদের সাথে যোগ দিন।",
     "description": "Paragraph of body text; \"Patreon\" should not be translated"
   },
   "modals.upgrade.title": {
-    "message": "Upgrade Account",
+    "message": "আপগ্রেড অ্যাকাউন্ট",
     "description": "Button text"
   },
   "panel.output.github#btn": {
-    "message": "{{projectName}} on GitHub",
+    "message": "গিটহাব এ {{projectName}}",
     "description": "Link text"
   },
   "panel.output.upgraded#ui": {
-    "message": "Upgraded session",
+    "message": "আপগ্রেড করা অধিবেশন",
     "description": "Description when hovering over an image"
   },
   "panel.plot.description#ui": {
-    "message": "Plot: Line {{-lineNumberHTML}}",
+    "message": "প্লট: লাইন {{-lineNumberHTML}}",
     "description": "Paragraph of body text"
   },
   "panel.plot.download#btn": {
-    "message": "Download Plot as Image",
+    "message": "চিত্র হিসাবে প্লট ডাউনলোড করুন",
     "description": "Button text"
   },
   "panel.plot.expand#btn": {
-    "message": "Expand Plot Window",
+    "message": "প্লট উইন্ডো প্রসারিত করুন",
     "description": "Button text"
   },
   "panel.plot.next#btn": {
-    "message": "Next Plot",
+    "message": "নেক্সট প্লট",
     "description": "Button text"
   },
   "panel.plot.prev#btn": {
-    "message": "Previous Plot",
+    "message": "পূর্ববর্তী প্লট",
     "description": "Button text"
   },
   "panel.plot.zoom#btn": {
-    "message": "Click to zoom",
+    "message": "জুম করতে ক্লিক করুন",
     "description": "Button text"
   },
   "panel.prompt.add#btn": {
-    "message": "Add {{-numSecondsHTML}} Seconds",
+    "message": "অ্যাড {{-numSecondsHTML}} সেকেন্ডস",
     "description": "Button text with interpolated number; for example, \"Add 15 seconds\""
   },
   "panel.prompt.resume#btn": {
-    "message": "Resume Execution",
+    "message": "এক্সিকিউশন পুনরায় শুরু করুন",
     "description": "Button text"
   },
   "panel.prompt.seconds#ui": {
-    "message": "Seconds Remaining:",
+    "message": "সেকেন্ড বাকি:",
     "description": "Label, followed by a number"
   },
   "panel.prompt.sigint#btn": {
-    "message": "Stop Currently Running Command (send SIGINT)",
+    "message": "বর্তমানে চলমান কমান্ড বন্ধ করুন (send SIGINT)",
     "description": "Button text; \"SIGINT\" should not be translated"
   },
   "panel.prompt.upgrade#btn": {
-    "message": "Upgrade",
+    "message": "আপগ্রেড",
     "description": "Button text"
   },
   "panel.vars.title": {
-    "message": "Vars",
+    "message": "ভেরিএবলেস",
     "description": "Section header"
   },
   "promos.bucketcreate.p1": {
-    "message": "Share snapshots of your script files!",
+    "message": "আপনার স্ক্রিপ্ট ফাইলগুলির স্ন্যাপশটগুলি শেয়ার করুন!",
     "description": "Call to action, paragraph of body text"
   },
   "promos.bucketcreate.p2": {
-    "message": "Click the icon to create a new bucket.",
+    "message": "একটি নতুন বাকেট তৈরি করতে আইকনটি ক্লিক করুন.",
     "description": "Call to action, paragraph of body text"
   },
   "promos.bucketsbacklink.p1": {
-    "message": "Sign in to create your own buckets and use the rest of {{config.client.app_name}}.",
+    "message": "আপনার নিজের বালতি তৈরি করতে এবং বাকী {{config.client.app_name}} ব্যবহার করতে সাইন ইন করুন।",
     "description": "Call to action, paragraph of body text"
   },
   "promos.instructor.p1": {
-    "message": "Did you know you can use {{config.client.app_name}} in your class?",
+    "message": "আপনি কি জানতেন যে আপনি আপনার ক্লাসে {{config.client.app_name}} ব্যবহার করতে পারেন?",
     "description": "Paragraph of body text"
   },
   "promos.instructor.p2": {
-    "message": "Open a support ticket to inquire about how we can set you up as an instructor.",
+    "message": "আমরা কীভাবে আপনাকে প্রশিক্ষক হিসাবে সেট আপ করতে পারি সে সম্পর্কে অনুসন্ধান করার জন্য একটি সমর্থন টিকিট খুলুন।",
     "description": "Call to action, paragraph of body text"
   },
   "promos.login.p1": {
-    "message": "Want to use scripts?",
+    "message": "স্ক্রিপ্ট ব্যবহার করতে চান?",
     "description": "Rhetorical question asked of the user"
   },
   "promos.login.p2": {
-    "message": "Sign in to create and share script files.",
+    "message": "স্ক্রিপ্ট ফাইলগুলি তৈরি এবং শেয়ার করতে সাইন ইন করুন।",
     "description": "Call to action, paragraph of body text"
   },
   "promos.prompt.btn1": {
-    "message": "Sign In",
+    "message": "সাইন ইন করুন",
     "description": "Call to action, button text"
   },
   "promos.prompt.p1": {
-    "message": "Type expressions here and press enter.",
+    "message": "এখানে এক্সপ্রেশন লিখুন এবং এন্টার টিপুন।",
     "description": "Paragraph of body text"
   },
   "promos.prompt.p2": {
-    "message": "To use script files:",
+    "message": "স্ক্রিপ্ট ফাইলগুলি ব্যবহার করতে:",
     "description": "Label, followed by a call to action button"
   },
   "promos.prompt.title": {
-    "message": "Octave Command Prompt",
+    "message": "অক্টেভ কমান্ড প্রম্পট",
     "description": "Section header"
   },
   "promos.sharing.p1": {
-    "message": "Set up sharing so you can collaboratively edit your script files in real time, like Google Docs.",
+    "message": "শেয়ার করে নেওয়ার ব্যবস্থা সেট করুন যাতে আপনি গুগল ডক্সের মতো আপনার স্ক্রিপ্ট ফাইলগুলিকে রিয়েল টাইমে সম্মিলিতভাবে সম্পাদনা করতে পারেন।",
     "description": "Call to action, paragraph of body text"
   },
   "promos.sharing.subhead1": {
-    "message": "Tip:",
+    "message": "টিপ:",
     "description": "Section header"
   },
   "promos.sync.p1": {
-    "message": "View historical versions of your script files!",
+    "message": "আপনার স্ক্রিপ্ট ফাইলগুলির ঐতিহাসিক সংস্করণ দেখুন!",
     "description": "Call to action, paragraph of body text"
   },
   "promos.sync.p2": {
-    "message": "Click the icon for more info.",
+    "message": "আরও তথ্যের জন্য আইকনে ক্লিক করুন।",
     "description": "Call to action, paragraph of body text"
   },
   "promos.welcome.p1": {
-    "message": "{{config.client.app_name}} is a web UI for GNU Octave, the open-source alternative to MATLAB.  Thousands of students, educators, and researchers from around the world use {{config.client.app_name}} each day for studying machine learning, control systems, numerical methods, and more.",
+    "message": "{{config.client.app_name}} জিএনইউ অক্টেভের জন্য একটি ওয়েব ইউআই, এটি ম্যাট্ল্যাব-এর ওপেন-সোর্স বিকল্প।  Thousands of students, educators, and researchers from around the world use {{config.client.app_name}} each day for studying machine learning, control systems, numerical methods, and more.",
     "description": "Paragraph of body text"
   },
   "promos.welcome.p2": {
