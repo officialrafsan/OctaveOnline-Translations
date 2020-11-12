@@ -604,27 +604,27 @@
     "description": "Call to action, paragraph of body text"
   },
   "promos.welcome.p1": {
-    "message": "{{config.client.app_name}} জিএনইউ অক্টেভের জন্য একটি ওয়েব ইউআই, এটি ম্যাট্ল্যাব-এর ওপেন-সোর্স বিকল্প।  Thousands of students, educators, and researchers from around the world use {{config.client.app_name}} each day for studying machine learning, control systems, numerical methods, and more.",
+    "message": "{{config.client.app_name}} জিএনইউ অক্টেভের জন্য একটি ওয়েব ইউআই, এটি ম্যাট্ল্যাব-এর ওপেন-সোর্স বিকল্প।  মেশিন লার্নিং, নিয়ন্ত্রণ ব্যবস্থা, সংখ্যা পদ্ধতি এবং আরও অনেক কিছু অধ্যয়নের জন্য বিশ্বজুড়ে হাজার হাজার শিক্ষার্থী, শিক্ষাবিদ এবং গবেষকরা প্রতিদিন {{config.client.app_name}} ব্যবহার করেন।",
     "description": "Paragraph of body text"
   },
   "promos.welcome.p2": {
-    "message": "Type commands in the prompt like you would in your local copy of GNU Octave or MATLAB.",
+    "message": "প্রম্পটে কমান্ডগুলি টাইপ করুন যেমন আপনি জিএনইউ অক্টেভ বা ম্যাটল্যাবের স্থানীয় কপিতে চান।",
     "description": "Paragraph of body text describing what you can do on the site"
   },
   "promos.welcome.p3": {
-    "message": "Plot charts and graphs.",
+    "message": "প্লটের চার্ট এবং গ্রাফ।",
     "description": "Paragraph of body text describing what you can do on the site"
   },
   "promos.welcome.p4": {
-    "message": "Sign in for more features: script files, buckets, real-time collaboration like Google Docs, extended runtime, and more.",
+    "message": "আরও বৈশিষ্ট্যের জন্য সাইন ইন করুন: স্ক্রিপ্ট ফাইল, বাকেট, গুগল ডক্সের মতো রিয়েল-টাইম সহযোগিতা, প্রসারিত রানটাইম এবং আরও অনেক কিছু।",
     "description": "Paragraph of body text with a call to action and also describing what you can do on the site"
   },
   "promos.welcome.start#btn": {
-    "message": "Start Using {{config.client.app_name}}",
+    "message": "ব্যবহার শুরু করুন {{config.client.app_name}}",
     "description": "Call to action, button text"
   },
   "promos.welcome.title": {
-    "message": "Welcome to {{config.client.app_name}}",
+    "message": "স্বাগতম {{config.client.app_name}} এ",
     "description": "Section header (shown prominently on page)"
   }
 }
