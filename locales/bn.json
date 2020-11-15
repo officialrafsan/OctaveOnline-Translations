@@ -52,7 +52,7 @@
     "description": "Description of what a button will do"
   },
   "editor.tips.p1": {
-    "message": "আপনার {{config.client.app_name}} ওপর কাজ করা ফাইলগুলি পরের বার আপনি দেখার সময় স্বয়ংক্রিয়ভাবে সংরক্ষণ করে রাখা থাকবে।",
+    "message": "আপনার {{config.client.app_name}} ওপর কাজ করা ফাইলগুলি পরের বার আপনি দেখার সময় স্বয়ংক্রিয়ভাবে সংরক্ষণ করে রাখা থাকবে। নিষ্ক্রিয়তার 6 মাস পরে এগুলি মুছে ফেলা হবে।",
     "description": "Paragraph of body text"
   },
   "editor.tips.p2": {

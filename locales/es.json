@@ -52,7 +52,7 @@
     "description": "Description of what a button will do"
   },
   "editor.tips.p1": {
-    "message": "Los archivos que realice en {{config.client.app_name}} se guardarán para la próxima vez que los verifique.",
+    "message": "Los archivos que realice en {{config.client.app_name}} se guardarán para la próxima vez que los verifique. Ellos serán eliminados después de 6 meses de inactividad.",
     "description": "Paragraph of body text"
   },
   "editor.tips.p2": {
