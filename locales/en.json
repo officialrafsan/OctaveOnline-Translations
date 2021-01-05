@@ -1,4 +1,8 @@
 {
+  "common.bucket": {
+    "message": "Bucket",
+    "description": "Name for a collection of files shared with other users; do not translate in Latin-script languages"
+  },
   "common.caution#label": {
     "message": "Caution:",
     "description": "Label, followed by another sentence"
@@ -26,6 +30,10 @@
   "common.password#ph": {
     "message": "password",
     "description": "Placeholder text for form field"
+  },
+  "common.project": {
+    "message": "Project",
+    "description": "Name for a workspace with files for editing and collaboration"
   },
   "common.submit#btn": {
     "message": "Submit",
@@ -151,12 +159,12 @@
     "message": "{{config.client.app_name}} Interactive Editor",
     "description": "Section header"
   },
-  "header.buckets.delete#btn": {
-    "message": "Delete Bucket",
+  "header.buckets.delete#btn@2": {
+    "message": "Delete Bucket/Project",
     "description": "Button text"
   },
-  "header.buckets.title": {
-    "message": "Your Buckets:",
+  "header.buckets.title@2": {
+    "message": "Buckets and Projects:",
     "description": "Label, followed by a number"
   },
   "header.meta.official.desc": {
@@ -191,13 +199,25 @@
     "message": "Change Theme",
     "description": "Button text"
   },
-  "header.sidebar.disablesharing#btn": {
-    "message": "Disable Sharing",
+  "header.sidebar.createnewproject#btn": {
+    "message": "Create New Project",
     "description": "Button text"
   },
-  "header.sidebar.enablesharing#btn": {
-    "message": "Share Workspace",
+  "header.sidebar.disablesharing#btn@2": {
+    "message": "Disable Collaboration",
     "description": "Button text"
+  },
+  "header.sidebar.enablesharing#btn@2": {
+    "message": "Enable Collaboration",
+    "description": "Button text"
+  },
+  "header.sidebar.enablesharing#tooltip": {
+    "message": "Enabling collaboration allows others to edit your home workspace in real time.",
+    "description": "Tooltip (additional explanation of what a button will do)"
+  },
+  "header.sidebar.enablesharingp#tooltip": {
+    "message": "Enabling collaboration allows others to edit this project in real time.",
+    "description": "Tooltip (additional explanation of what a button will do)"
   },
   "header.sidebar.github#btn": {
     "message": "GitHub Project",
@@ -391,8 +411,8 @@
     "message": "Main File:",
     "description": "Section header, followed by a list"
   },
-  "modals.createbucket.p1": {
-    "message": "A \"bucket\" is how to publicly share snapshots of {{config.client.app_name}} script or data files.",
+  "modals.createbucket.p1@2": {
+    "message": "A \"bucket\" is the way to share snapshots of script and data files. A \"project\" is an editable workspace to organize script and data files.",
     "description": "Paragraph of body text"
   },
   "modals.createbucket.p2": {
@@ -407,8 +427,16 @@
     "message": "After clicking below, your browser will refresh into your new bucket.  You can share the URL of the page to which you are redirected.",
     "description": "Paragraph of body text"
   },
-  "modals.createbucket.subhead1": {
-    "message": "Optional: Add More Files",
+  "modals.createbucket.p4p": {
+    "message": "After clicking below, your browser will refresh into your new project.",
+    "description": "Paragraph of body text"
+  },
+  "modals.createbucket.subhead1@2": {
+    "message": "Optional: Add More Files to Bucket",
+    "description": "Call to action, section header"
+  },
+  "modals.createbucket.subhead1p": {
+    "message": "Optional: Copy Files into Project",
     "description": "Call to action, section header"
   },
   "modals.createbucket.subhead2": {
@@ -419,6 +447,10 @@
     "message": "Files in Bucket",
     "description": "Section header, followed by a list"
   },
+  "modals.createbucket.subhead3p": {
+    "message": "Files in Project",
+    "description": "Section header, followed by a list"
+  },
   "modals.createbucket.subhead4": {
     "message": "Optional: Select Main File",
     "description": "Call to action, section header"
@@ -427,8 +459,16 @@
     "message": "Create Bucket",
     "description": "Button text"
   },
+  "modals.createbucket.submitp#btn": {
+    "message": "Create Project",
+    "description": "Button text"
+  },
   "modals.createbucket.title": {
     "message": "Customize Bucket",
+    "description": "Button text"
+  },
+  "modals.createbucket.titlep": {
+    "message": "Customize Project",
     "description": "Button text"
   },
   "modals.email.label1": {
@@ -587,8 +627,8 @@
     "message": "Octave Command Prompt",
     "description": "Section header"
   },
-  "promos.sharing.p1": {
-    "message": "Set up sharing so you can collaboratively edit your script files in real time, like Google Docs.",
+  "promos.sharing.p1@2": {
+    "message": "Enable collaboration to allow others to edit your script files in real time, like Google Docs.",
     "description": "Call to action, paragraph of body text"
   },
   "promos.sharing.subhead1": {
