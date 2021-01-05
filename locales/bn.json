@@ -1,4 +1,8 @@
 {
+  "common.bucket": {
+    "message": "বাকেট",
+    "description": "Name for a collection of files shared with other users; do not translate in Latin-script languages"
+  },
   "common.caution#label": {
     "message": "সাবধান:",
     "description": "Label, followed by another sentence"
@@ -26,6 +30,10 @@
   "common.password#ph": {
     "message": "পাসওয়ার্ড",
     "description": "Placeholder text for form field"
+  },
+  "common.project": {
+    "message": "প্রকল্প",
+    "description": "Name for a workspace with files for editing and collaboration"
   },
   "common.submit#btn": {
     "message": "সাবমিট",
@@ -151,12 +159,12 @@
     "message": "{{config.client.app_name}} ইন্টারেক্টিভ এডিটর",
     "description": "Section header"
   },
-  "header.buckets.delete#btn": {
-    "message": "ডিলিট বাকেট",
+  "header.buckets.delete#btn@2": {
+    "message": "ডিলিট বাকেট/প্রকল্প",
     "description": "Button text"
   },
-  "header.buckets.title": {
-    "message": "আপনার বাকেট:",
+  "header.buckets.title@2": {
+    "message": "বালতি এবং প্রকল্প:",
     "description": "Label, followed by a number"
   },
   "header.meta.official.desc": {
@@ -191,13 +199,25 @@
     "message": "থিম পরিবর্তন করুন",
     "description": "Button text"
   },
-  "header.sidebar.disablesharing#btn": {
-    "message": "শেয়ারিং অক্ষম করুন",
+  "header.sidebar.createnewproject#btn": {
+    "message": "নতুন প্রকল্প",
     "description": "Button text"
   },
-  "header.sidebar.enablesharing#btn": {
-    "message": "কর্মক্ষেত্র ভাগ করুন",
+  "header.sidebar.disablesharing#btn@2": {
+    "message": "সহযোগিতা অক্ষম করুন",
     "description": "Button text"
+  },
+  "header.sidebar.enablesharing#btn@2": {
+    "message": "সহযোগিতা সক্ষম করুন",
+    "description": "Button text"
+  },
+  "header.sidebar.enablesharing#tooltip": {
+    "message": "সহযোগিতা সক্ষম করা অন্যকে রিয়েল টাইমে আপনার বাড়ির কর্মক্ষেত্র সম্পাদনা করার অনুমতি দেয়।",
+    "description": "Tooltip (additional explanation of what a button will do)"
+  },
+  "header.sidebar.enablesharingp#tooltip": {
+    "message": "সহযোগিতা সক্ষম করা অন্যকে রিয়েল টাইমে এই প্রকল্পটি সম্পাদনা করার অনুমতি দেয়।",
+    "description": "Tooltip (additional explanation of what a button will do)"
   },
   "header.sidebar.github#btn": {
     "message": "গিটহাব প্রকল্প",
@@ -391,8 +411,8 @@
     "message": "মূল ফাইল:",
     "description": "Section header, followed by a list"
   },
-  "modals.createbucket.p1": {
-    "message": "একটি \"বাকেট\" হ'ল কীভাবে {{config.client.app_name}} স্ক্রিপ্ট বা ডেটা ফাইলগুলির স্ন্যাপশট প্রকাশ্যে ভাগ করা যায়।",
+  "modals.createbucket.p1@2": {
+    "message": "একটি \"বাকেট\" হ'ল কীভাবে স্ক্রিপ্ট বা ডেটা ফাইলগুলির স্ন্যাপশট প্রকাশ্যে ভাগ করা যায়। একটি \"প্রকল্প\" হ'ল স্ক্রিপ্ট এবং ডেটা ফাইলগুলি সংগঠিত করার জন্য একটি সম্পাদনাযোগ্য কর্মক্ষেত্র।",
     "description": "Paragraph of body text"
   },
   "modals.createbucket.p2": {
@@ -407,8 +427,16 @@
     "message": "নীচে ক্লিক করার পরে, আপনার ব্রাউজারটি আপনার নতুন বাকেট রিফ্রেশ করবে।  আপনাকে যে পেজটিতে পুনঃনির্দেশিত করা হয়েছে আপনি তার URL শেয়ার করতে পারেন।",
     "description": "Paragraph of body text"
   },
-  "modals.createbucket.subhead1": {
+  "modals.createbucket.p4p": {
+    "message": "নীচে ক্লিক করার পরে, আপনার ব্রাউজারটি আপনার নতুন প্রকল্প রিফ্রেশ করবে।",
+    "description": "Paragraph of body text"
+  },
+  "modals.createbucket.subhead1@2": {
     "message": "ঐচ্ছিক: আরও ফাইল যুক্ত করুন",
+    "description": "Call to action, section header"
+  },
+  "modals.createbucket.subhead1p": {
+    "message": "ঐচ্ছিক: প্রকল্পে ফাইল অনুলিপি করুন",
     "description": "Call to action, section header"
   },
   "modals.createbucket.subhead2": {
@@ -419,6 +447,10 @@
     "message": "বাকেটের মধ্যে ফাইলস",
     "description": "Section header, followed by a list"
   },
+  "modals.createbucket.subhead3p": {
+    "message": "প্রকল্পে মধ্যে ফাইলস",
+    "description": "Section header, followed by a list"
+  },
   "modals.createbucket.subhead4": {
     "message": "ঐচ্ছিক: প্রধান ফাইলটি নির্বাচন করুন",
     "description": "Call to action, section header"
@@ -427,8 +459,16 @@
     "message": "বাকেট তৈরি করুন",
     "description": "Button text"
   },
+  "modals.createbucket.submitp#btn": {
+    "message": "প্রকল্প তৈরি করুন",
+    "description": "Button text"
+  },
   "modals.createbucket.title": {
     "message": "বাকেট কাস্টমাইজ করুন",
+    "description": "Button text"
+  },
+  "modals.createbucket.titlep": {
+    "message": "প্রকল্পটি কাস্টমাইজ করুন",
     "description": "Button text"
   },
   "modals.email.label1": {
@@ -587,8 +627,8 @@
     "message": "অক্টেভ কমান্ড প্রম্পট",
     "description": "Section header"
   },
-  "promos.sharing.p1": {
-    "message": "শেয়ার করে নেওয়ার ব্যবস্থা সেট করুন যাতে আপনি গুগল ডক্সের মতো আপনার স্ক্রিপ্ট ফাইলগুলিকে রিয়েল টাইমে সম্মিলিতভাবে সম্পাদনা করতে পারেন।",
+  "promos.sharing.p1@2": {
+    "message": "গুগল ডক্সের মতো অন্যদেরকেও আপনার স্ক্রিপ্ট ফাইলগুলি রিয়েল টাইমে সম্পাদনা করার অনুমতি দেওয়ার জন্য সহযোগিতা সক্ষম করুন।",
     "description": "Call to action, paragraph of body text"
   },
   "promos.sharing.subhead1": {
