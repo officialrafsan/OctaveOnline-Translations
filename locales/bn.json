@@ -159,9 +159,17 @@
     "message": "{{config.client.app_name}} ইন্টারেক্টিভ এডিটর",
     "description": "Section header"
   },
+  "header.buckets.delete#btn": {
+    "message": "ডিলিট বাকেট",
+    "description": "Button text"
+  },
   "header.buckets.delete#btn@2": {
     "message": "ডিলিট বাকেট/প্রকল্প",
     "description": "Button text"
+  },
+  "header.buckets.title": {
+    "message": "আপনার বাকেট:",
+    "description": "Label, followed by a number"
   },
   "header.buckets.title@2": {
     "message": "আপনার বাকেট এবং প্রকল্প:",
@@ -203,8 +211,16 @@
     "message": "নতুন প্রকল্প",
     "description": "Button text"
   },
+  "header.sidebar.disablesharing#btn": {
+    "message": "শেয়ারিং অক্ষম করুন",
+    "description": "Button text"
+  },
   "header.sidebar.disablesharing#btn@2": {
     "message": "সহযোগিতা অক্ষম করুন",
+    "description": "Button text"
+  },
+  "header.sidebar.enablesharing#btn": {
+    "message": "কর্মক্ষেত্র ভাগ করুন",
     "description": "Button text"
   },
   "header.sidebar.enablesharing#btn@2": {
@@ -411,6 +427,10 @@
     "message": "মূল ফাইল:",
     "description": "Section header, followed by a list"
   },
+  "modals.createbucket.p1": {
+    "message": "একটি \"বাকেট\" হ'ল কীভাবে {{config.client.app_name}} স্ক্রিপ্ট বা ডেটা ফাইলগুলির স্ন্যাপশট প্রকাশ্যে ভাগ করা যায়।",
+    "description": "Paragraph of body text"
+  },
   "modals.createbucket.p1@2": {
     "message": "একটি \"বাকেট\" হ'ল কীভাবে স্ক্রিপ্ট বা ডেটা ফাইলগুলির স্ন্যাপশট প্রকাশ্যে ভাগ করা যায়। একটি \"প্রকল্প\" হ'ল স্ক্রিপ্ট এবং ডেটা ফাইলগুলি সংগঠিত করার জন্য একটি সম্পাদনাযোগ্য কর্মক্ষেত্র।",
     "description": "Paragraph of body text"
@@ -430,6 +450,10 @@
   "modals.createbucket.p4p": {
     "message": "নীচে ক্লিক করার পরে, আপনার ব্রাউজারটি আপনার নতুন প্রকল্প রিফ্রেশ করবে।",
     "description": "Paragraph of body text"
+  },
+  "modals.createbucket.subhead1": {
+    "message": "ঐচ্ছিক: আরও ফাইল যুক্ত করুন",
+    "description": "Call to action, section header"
   },
   "modals.createbucket.subhead1@2": {
     "message": "ঐচ্ছিক: আরও ফাইল যুক্ত করুন",
@@ -626,6 +650,10 @@
   "promos.prompt.title": {
     "message": "অক্টেভ কমান্ড প্রম্পট",
     "description": "Section header"
+  },
+  "promos.sharing.p1": {
+    "message": "শেয়ার করে নেওয়ার ব্যবস্থা সেট করুন যাতে আপনি গুগল ডক্সের মতো আপনার স্ক্রিপ্ট ফাইলগুলিকে রিয়েল টাইমে সম্মিলিতভাবে সম্পাদনা করতে পারেন।",
+    "description": "Call to action, paragraph of body text"
   },
   "promos.sharing.p1@2": {
     "message": "গুগল ডক্সের মতো অন্যদেরকেও আপনার স্ক্রিপ্ট ফাইলগুলি রিয়েল টাইমে সম্পাদনা করার অনুমতি দেওয়ার জন্য সহযোগিতা সক্ষম করুন।",

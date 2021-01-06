@@ -1,4 +1,8 @@
 {
+  "common.bucket": {
+    "message": "Bucket",
+    "description": "Name for a collection of files shared with other users; do not translate in Latin-script languages"
+  },
   "common.caution#label": {
     "message": "Advertencia:",
     "description": "Label, followed by another sentence"
@@ -26,6 +30,10 @@
   "common.password#ph": {
     "message": "contraseña",
     "description": "Placeholder text for form field"
+  },
+  "common.project": {
+    "message": "Proyecto",
+    "description": "Name for a workspace with files for editing and collaboration"
   },
   "common.submit#btn": {
     "message": "Enviar",
@@ -155,8 +163,16 @@
     "message": "Elimine el bucket",
     "description": "Button text"
   },
+  "header.buckets.delete#btn@2": {
+    "message": "Borrar bucket/proyecto",
+    "description": "Button text"
+  },
   "header.buckets.title": {
     "message": "Sus buckets:",
+    "description": "Label, followed by a number"
+  },
+  "header.buckets.title@2": {
+    "message": "Buckets y proyectos:",
     "description": "Label, followed by a number"
   },
   "header.meta.official.desc": {
@@ -191,13 +207,33 @@
     "message": "Cambie la temática",
     "description": "Button text"
   },
+  "header.sidebar.createnewproject#btn": {
+    "message": "Crear nuevo proyecto",
+    "description": "Button text"
+  },
   "header.sidebar.disablesharing#btn": {
     "message": "Desactive la distribución de archivos",
+    "description": "Button text"
+  },
+  "header.sidebar.disablesharing#btn@2": {
+    "message": "Deshabilitar colaboración",
     "description": "Button text"
   },
   "header.sidebar.enablesharing#btn": {
     "message": "Comparta el espacio de trabajo",
     "description": "Button text"
+  },
+  "header.sidebar.enablesharing#btn@2": {
+    "message": "Habilitar colaboración",
+    "description": "Button text"
+  },
+  "header.sidebar.enablesharing#tooltip": {
+    "message": "Habilitar las colaboraciones permite que otros editen su espacio de trabajo de inicio en tiempo real.",
+    "description": "Tooltip (additional explanation of what a button will do)"
+  },
+  "header.sidebar.enablesharingp#tooltip": {
+    "message": "Habilitar las colaboraciones permite que otros editen este proyecto en tiempo real.",
+    "description": "Tooltip (additional explanation of what a button will do)"
   },
   "header.sidebar.github#btn": {
     "message": "Proyecto GitHub",
@@ -395,6 +431,10 @@
     "message": "Un \"bucket\" es cómo compartir públicamente las instantáneas de la secuencia de comandos {{config.client.app_name}} o archivos de datos.",
     "description": "Paragraph of body text"
   },
+  "modals.createbucket.p1@2": {
+    "message": "Un \"bucket\" es la forma de compartir instantáneas de archivos de código y de datos. Un \"proyecto\" es un espacio de trabajo editable en donde organizar archivos de código y de datos.",
+    "description": "Paragraph of body text"
+  },
   "modals.createbucket.p2": {
     "message": "Seleccione los archivos y haga clic en el botón de flecha derecha.",
     "description": "Call to action, paragraph of body text"
@@ -407,8 +447,20 @@
     "message": "Después de hacer clic a continuación, su navegador se actualizará en su nuevo bucket.  Puede compartir la dirección URL de la página a la que se le redirige.",
     "description": "Paragraph of body text"
   },
+  "modals.createbucket.p4p": {
+    "message": "Después de hacer clic a continuación, su navegador se refrescará y cargará su nuevo proyecto.",
+    "description": "Paragraph of body text"
+  },
   "modals.createbucket.subhead1": {
     "message": "Opcional: añada más archivos",
+    "description": "Call to action, section header"
+  },
+  "modals.createbucket.subhead1@2": {
+    "message": "Opcional: añadir más archivos al bucket",
+    "description": "Call to action, section header"
+  },
+  "modals.createbucket.subhead1p": {
+    "message": "Opcional: copiar archivos al proyecto",
     "description": "Call to action, section header"
   },
   "modals.createbucket.subhead2": {
@@ -419,6 +471,10 @@
     "message": "Archivos en bucket",
     "description": "Section header, followed by a list"
   },
+  "modals.createbucket.subhead3p": {
+    "message": "Archivos en el proyecto",
+    "description": "Section header, followed by a list"
+  },
   "modals.createbucket.subhead4": {
     "message": "Opcional: seleccione el archivo principal",
     "description": "Call to action, section header"
@@ -427,8 +483,16 @@
     "message": "Cree un bucket",
     "description": "Button text"
   },
+  "modals.createbucket.submitp#btn": {
+    "message": "Crear proyecto",
+    "description": "Button text"
+  },
   "modals.createbucket.title": {
     "message": "Personalice el bucket",
+    "description": "Button text"
+  },
+  "modals.createbucket.titlep": {
+    "message": "Personalizar proyecto",
     "description": "Button text"
   },
   "modals.email.label1": {
@@ -589,6 +653,10 @@
   },
   "promos.sharing.p1": {
     "message": "Configure la distribución de archivos para que pueda editar sus archivos de secuencia de comandos de forma conjunta en tiempo real, como por ejemplo, Google Docs.",
+    "description": "Call to action, paragraph of body text"
+  },
+  "promos.sharing.p1@2": {
+    "message": "Habilite la colaboración para permitir que otros editen sus archivos de código en tiempo real, como en Google Docs.",
     "description": "Call to action, paragraph of body text"
   },
   "promos.sharing.subhead1": {

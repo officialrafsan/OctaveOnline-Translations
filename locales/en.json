@@ -159,9 +159,17 @@
     "message": "{{config.client.app_name}} Interactive Editor",
     "description": "Section header"
   },
+  "header.buckets.delete#btn": {
+    "message": "Delete Bucket",
+    "description": "Button text"
+  },
   "header.buckets.delete#btn@2": {
     "message": "Delete Bucket/Project",
     "description": "Button text"
+  },
+  "header.buckets.title": {
+    "message": "Your Buckets:",
+    "description": "Label, followed by a number"
   },
   "header.buckets.title@2": {
     "message": "Buckets and Projects:",
@@ -203,8 +211,16 @@
     "message": "Create New Project",
     "description": "Button text"
   },
+  "header.sidebar.disablesharing#btn": {
+    "message": "Disable Sharing",
+    "description": "Button text"
+  },
   "header.sidebar.disablesharing#btn@2": {
     "message": "Disable Collaboration",
+    "description": "Button text"
+  },
+  "header.sidebar.enablesharing#btn": {
+    "message": "Share Workspace",
     "description": "Button text"
   },
   "header.sidebar.enablesharing#btn@2": {
@@ -411,6 +427,10 @@
     "message": "Main File:",
     "description": "Section header, followed by a list"
   },
+  "modals.createbucket.p1": {
+    "message": "A \"bucket\" is how to publicly share snapshots of {{config.client.app_name}} script or data files.",
+    "description": "Paragraph of body text"
+  },
   "modals.createbucket.p1@2": {
     "message": "A \"bucket\" is the way to share snapshots of script and data files. A \"project\" is an editable workspace to organize script and data files.",
     "description": "Paragraph of body text"
@@ -430,6 +450,10 @@
   "modals.createbucket.p4p": {
     "message": "After clicking below, your browser will refresh into your new project.",
     "description": "Paragraph of body text"
+  },
+  "modals.createbucket.subhead1": {
+    "message": "Optional: Add More Files",
+    "description": "Call to action, section header"
   },
   "modals.createbucket.subhead1@2": {
     "message": "Optional: Add More Files to Bucket",
@@ -626,6 +650,10 @@
   "promos.prompt.title": {
     "message": "Octave Command Prompt",
     "description": "Section header"
+  },
+  "promos.sharing.p1": {
+    "message": "Set up sharing so you can collaboratively edit your script files in real time, like Google Docs.",
+    "description": "Call to action, paragraph of body text"
   },
   "promos.sharing.p1@2": {
     "message": "Enable collaboration to allow others to edit your script files in real time, like Google Docs.",
