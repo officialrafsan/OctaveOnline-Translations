@@ -164,7 +164,7 @@
     "description": "Button text"
   },
   "header.buckets.title@2": {
-    "message": "বালতি এবং প্রকল্প:",
+    "message": "আপনার বাকেট এবং প্রকল্প:",
     "description": "Label, followed by a number"
   },
   "header.meta.official.desc": {
@@ -448,7 +448,7 @@
     "description": "Section header, followed by a list"
   },
   "modals.createbucket.subhead3p": {
-    "message": "প্রকল্পে মধ্যে ফাইলস",
+    "message": "প্রকল্পের মধ্যে ফাইলস",
     "description": "Section header, followed by a list"
   },
   "modals.createbucket.subhead4": {
