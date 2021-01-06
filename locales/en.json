@@ -60,7 +60,7 @@
     "description": "Description of what a button will do"
   },
   "editor.tips.p1": {
-    "message": "The files you make on {{config.client.app_name}} will be saved for the next time you visit.",
+    "message": "The files you make on {{config.client.app_name}} will be saved for the next time you visit. They will be deleted after 6 months of inactivity.",
     "description": "Paragraph of body text"
   },
   "editor.tips.p2": {
