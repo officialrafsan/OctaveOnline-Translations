@@ -27,6 +27,10 @@
     "message": "Loading…",
     "description": "Filler text when a component is not ready yet"
   },
+  "common.loginrequired": {
+    "message": "Please sign in to perform this action",
+    "description": "Error message"
+  },
   "common.password#ph": {
     "message": "password",
     "description": "Placeholder text for form field"
@@ -327,6 +331,10 @@
     "message": "Note: This is a read-only bucket. Changes you make will not be persisted after you close your browser window.",
     "description": "Paragraph of body text"
   },
+  "javascript.console.readonly#alert@2": {
+    "message": "Note: This is a read-only bucket; your edits are temporary. To make your edits permanent, fork the bucket by clicking the bucket name:",
+    "description": "Error message"
+  },
   "javascript.console.reconnect#btn": {
     "message": "Click Here to Reconnect",
     "description": "Button text"
@@ -411,6 +419,26 @@
     "message": "You need to remove yourself by running this command at at the command prompt:",
     "description": "Call to action, followed by a computer command"
   },
+  "modals.bucketinfo.btn1": {
+    "message": "Fork This Bucket",
+    "description": "Button text"
+  },
+  "modals.bucketinfo.btn1p": {
+    "message": "Fork This Project",
+    "description": "Button text"
+  },
+  "modals.bucketinfo.label1": {
+    "message": "Created at:",
+    "description": "Label, followed by a date and time"
+  },
+  "modals.bucketinfo.label2": {
+    "message": "Forked From:",
+    "description": "Label, followed by a link"
+  },
+  "modals.bucketinfo.p1": {
+    "message": "Click below to make your own copy of this bucket or project.",
+    "description": "Call to action, paragraph of body text"
+  },
   "modals.changepwd.p1": {
     "message": "Enter your new password below.  To remove your password and disable password-based logins, leave the password field blank and click \"Save Password\".",
     "description": "Call to action, paragraph of body text"
@@ -489,11 +517,11 @@
   },
   "modals.createbucket.title": {
     "message": "Customize Bucket",
-    "description": "Button text"
+    "description": "Title of dialog box"
   },
   "modals.createbucket.titlep": {
     "message": "Customize Project",
-    "description": "Button text"
+    "description": "Title of dialog box"
   },
   "modals.email.label1": {
     "message": "Enter your email address:",
