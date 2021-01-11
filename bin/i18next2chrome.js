@@ -46,11 +46,16 @@ require("yargs")
 			array: true,
 			describe: "Locales to export (if not specified, convert all locales in the directory)",
 		})
+		.option("overwrite", {
+			alias: "W",
+			describe: "Overwrite the Chrome JSON file, rather than merge",
+		})
 	}, main)
 	.help()
 	.argv;
 
-function sortedMut(arr) {
+function sorted(set) {
+	const arr = [...set];
 	arr.sort();
 	return arr;
 }
@@ -92,21 +97,30 @@ async function main(args) {
 
 	// Transform each locale and dump to output directory
 	for (let locale of locales) {
-		const localePath = path.join(args.in_dir, locale + "." + args.i18next_format);
-		const rawLocaleStrings = await fs.promises.readFile(localePath, "utf-8");
+		const chromePath = path.join(args.out_dir, locale + ".json");
+		let oldChromeStrings = {};
+		if (!args.overwrite) {
+			const oldRawChromeStrings = await fs.promises.readFile(chromePath, "utf-8");
+			oldChromeStrings = JSON.parse(oldRawChromeStrings);
+		}
+		const i18nextLocalePath = path.join(args.in_dir, locale + "." + args.i18next_format);
+		const rawLocaleStrings = await fs.promises.readFile(i18nextLocalePath, "utf-8");
 		const localeStrings = flatten(yaml.safeLoad(rawLocaleStrings));
+		const allKeys = new Set(Object.keys(localeStrings).concat(Object.keys(oldChromeStrings)));
 		const chromeStrings = {};
-		for (let key of sortedMut(Object.keys(localeStrings))) {
-			if (descriptions && !descriptions[key]) {
+		for (let key of sorted(allKeys)) {
+			if (descriptions && !descriptions[key] && !oldChromeStrings[key]) {
 				throw new Error("Missing description for key " + key);
 			}
-			chromeStrings[key] = {
-				message: localeStrings[key],
-				description: descriptions[key],
-			};
+			chromeStrings[key] = Object.assign({}, oldChromeStrings[key]);
+			if (localeStrings[key]) {
+				chromeStrings[key].message = localeStrings[key];
+			}
+			if (descriptions[key]) {
+				chromeStrings[key].description = descriptions[key];
+			}
 		}
 		const rawChromeStrings = JSON.stringify(chromeStrings, null, "  ");
-		const chromePath = path.join(args.out_dir, locale + ".json");
 		await fs.promises.writeFile(chromePath, rawChromeStrings, "utf-8");
 	}
 }
