@@ -517,11 +517,11 @@
   },
   "modals.createbucket.title": {
     "message": "Customize Bucket",
-    "description": "Button text"
+    "description": "Title of dialog box"
   },
   "modals.createbucket.titlep": {
     "message": "Customize Project",
-    "description": "Button text"
+    "description": "Title of dialog box"
   },
   "modals.email.label1": {
     "message": "Enter your email address:",

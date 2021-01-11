@@ -517,11 +517,11 @@
   },
   "modals.createbucket.title": {
     "message": "বাকেট কাস্টমাইজ করুন",
-    "description": "Button text"
+    "description": "Title of dialog box"
   },
   "modals.createbucket.titlep": {
     "message": "প্রকল্পটি কাস্টমাইজ করুন",
-    "description": "Button text"
+    "description": "Title of dialog box"
   },
   "modals.email.label1": {
     "message": "আপনার ইমেইল এড্রেস এন্টার করুন:",

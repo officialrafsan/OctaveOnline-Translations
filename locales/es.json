@@ -489,11 +489,11 @@
   },
   "modals.createbucket.title": {
     "message": "Personalice el bucket",
-    "description": "Button text"
+    "description": "Title of dialog box"
   },
   "modals.createbucket.titlep": {
     "message": "Personalizar proyecto",
-    "description": "Button text"
+    "description": "Title of dialog box"
   },
   "modals.email.label1": {
     "message": "Ingrese su dirección de correo electrónico:",
