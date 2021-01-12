@@ -332,7 +332,7 @@
     "description": "Paragraph of body text"
   },
   "javascript.console.readonly#alert@2": {
-    "message": "Nota: este depósito es solo de lectura y las ediciones que hagas son temporales. Para que tus ediciones sean permanentes, bifurca el bucket haciendo clic en el nombre del bucket:",
+    "message": "Nota: este depósito es solo de lectura y las ediciones que hagas son temporales. Para que sus ediciones sean permanentes, bifurca el bucket haciendo clic en el nombre del bucket:",
     "description": "Error message"
   },
   "javascript.console.reconnect#btn": {
@@ -436,7 +436,7 @@
     "description": "Label, followed by a link"
   },
   "modals.bucketinfo.p1": {
-    "message": "Haz clic a continuación para hacer tu propia copia de este bucket o proyecto.",
+    "message": "Haz clic a continuación para hacer su propia copia de este bucket o proyecto.",
     "description": "Call to action, paragraph of body text"
   },
   "modals.changepwd.p1": {
