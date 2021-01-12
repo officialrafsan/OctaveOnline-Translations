@@ -27,6 +27,10 @@
     "message": "লোডিং…",
     "description": "Filler text when a component is not ready yet"
   },
+  "common.loginrequired": {
+    "message": "এই ক্রিয়াটি সম্পাদন করতে অনুগ্রহ করে সাইন ইন করুন",
+    "description": "Error message"
+  },
   "common.password#ph": {
     "message": "পাসওয়ার্ড",
     "description": "Placeholder text for form field"
@@ -327,6 +331,10 @@
     "message": "বিঃদ্রঃ: এটি কেবল পঠনযোগ্য বাকেট। আপনার ব্রাউজার উইন্ডোটি বন্ধ করার পরে আপনি যে পরিবর্তনগুলি করেন তা অক্ষত থাকবে না।",
     "description": "Paragraph of body text"
   },
+  "javascript.console.readonly#alert@2": {
+    "message": "দ্রষ্টব্য: এটি একটি রিড-ওনলি বাকেট; আপনার সম্পাদনা অস্থায়ী। আপনার সম্পাদনা স্থায়ী করতে, বাকেট নাম ক্লিক করে বাকেট ফর্ক করুন:",
+    "description": "Error message"
+  },
   "javascript.console.reconnect#btn": {
     "message": "সংযোগ করতে এখানে ক্লিক করুন",
     "description": "Button text"
@@ -411,6 +419,26 @@
     "message": "কমান্ড প্রম্পটে এই কমান্ডটি চালিয়ে নিজেকে রিমুভ করতে হবে:",
     "description": "Call to action, followed by a computer command"
   },
+  "modals.bucketinfo.btn1": {
+    "message": "এই বাকেটটি ফর্ক করুন",
+    "description": "Button text"
+  },
+  "modals.bucketinfo.btn1p": {
+    "message": "এই প্রকল্পটি ফর্ক করুন",
+    "description": "Button text"
+  },
+  "modals.bucketinfo.label1": {
+    "message": "তৈরি করা হয়েছে:",
+    "description": "Label, followed by a date and time"
+  },
+  "modals.bucketinfo.label2": {
+    "message": "থেকে কাঁটা:",
+    "description": "Label, followed by a link"
+  },
+  "modals.bucketinfo.p1": {
+    "message": "এই বাকেটটির বা প্রকল্পের নিজস্ব অনুলিপি তৈরি করতে নিচে ক্লিক করুন।",
+    "description": "Call to action, paragraph of body text"
+  },
   "modals.changepwd.p1": {
     "message": "নীচে আপনার নতুন পাসওয়ার্ডটি এন্টার করুন।  আপনার পাসওয়ার্ড অপসারণ করতে এবং পাসওয়ার্ড-ভিত্তিক লগইনগুলি অক্ষম করতে, পাসওয়ার্ড ক্ষেত্রটি ফাঁকা রেখে \"সেভ পাসওয়ার্ড\". এ ক্লিক করুন।",
     "description": "Call to action, paragraph of body text"
@@ -489,11 +517,11 @@
   },
   "modals.createbucket.title": {
     "message": "বাকেট কাস্টমাইজ করুন",
-    "description": "Button text"
+    "description": "Title of dialog box"
   },
   "modals.createbucket.titlep": {
     "message": "প্রকল্পটি কাস্টমাইজ করুন",
-    "description": "Button text"
+    "description": "Title of dialog box"
   },
   "modals.email.label1": {
     "message": "আপনার ইমেইল এড্রেস এন্টার করুন:",
