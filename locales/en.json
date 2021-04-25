@@ -531,6 +531,34 @@
     "message": "You will be emailed an 11-digit code that you will need to enter on the next screen. If you do not receive your code, please open a support ticket for assistance.",
     "description": "Paragraph of body text"
   },
+  "modals.history.btn1": {
+    "message": "Launch Version Control",
+    "description": "Button text"
+  },
+  "modals.history.btn2": {
+    "message": "Generate ZIP Archive",
+    "description": "Button text"
+  },
+  "modals.history.p1": {
+    "message": "Revisions to your files are tracked by a Git version control system.",
+    "description": "Paragraph of body text"
+  },
+  "modals.history.p2": {
+    "message": "To request a ZIP file snapshot sent to your email, click the link below. Note: If you edited your files this session, click the \"Refresh Files\" button first to ensure you receive the most up-to-date snapshot.",
+    "description": "Paragraph of body text"
+  },
+  "modals.history.subtitle1": {
+    "message": "Version Control",
+    "description": "Section title"
+  },
+  "modals.history.subtitle2": {
+    "message": "Download Snapshot",
+    "description": "Section title"
+  },
+  "modals.history.title": {
+    "message": "File History",
+    "description": "Title of dialog box"
+  },
   "modals.password.p1": {
     "message": "Use the \"email token\" sign-in option instead. Once you are signed in, use the \"Change Password\" option in the menu to set a new password.",
     "description": "Call to action, paragraph of body text"
@@ -577,7 +605,7 @@
   },
   "modals.upgrade.title": {
     "message": "Upgrade Account",
-    "description": "Button text"
+    "description": "Title of dialog box"
   },
   "panel.output.github#btn": {
     "message": "{{projectName}} on GitHub",
