@@ -2,6 +2,8 @@
 
 This project contains localized UI strings for Octave Online Server (OOS).
 
+[![Node.js CI](https://github.com/octave-online/oos-translations/workflows/Node.js%20CI/badge.svg)](https://github.com/octave-online/oos-translations/actions)
+
 ## Contributing New Translations
 
 Create a new file under the *locales/* directory.  Start from *en.json* and copy it to your new language, such as *zz.json*.  Then edit each string to be translated into your language.
