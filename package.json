@@ -21,8 +21,8 @@
   "homepage": "https://github.com/octave-online/oos-translations#readme",
   "dependencies": {
     "flat": "^5.0.2",
-    "js-yaml": "^3.14.0",
+    "js-yaml": "^3.14.1",
     "mkdirp": "^1.0.4",
-    "yargs": "^16.0.3"
+    "yargs": "^16.2.0"
   }
 }
