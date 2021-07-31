@@ -39,8 +39,7 @@ require("yargs")
 				describe: "Output directory containing Chrome JSON files",
 			})
 			.option("i18next_format", {
-			// TODO: Consider adding JSON output format
-				choices: ["yaml"],
+				choices: ["yaml", "json"],
 				default: "yaml",
 				describe: "i18next file format",
 			})
@@ -84,6 +83,8 @@ async function main(args) {
 		}
 	}
 
+	console.log("Locales:", locales);
+
 	// Load descriptions if available
 	const descFilename = "qqq." + args.i18next_format;
 	let descriptions;
@@ -108,7 +109,12 @@ async function main(args) {
 		}
 		const i18nextLocalePath = path.join(args.in_dir, locale + "." + args.i18next_format);
 		const rawLocaleStrings = await fs.promises.readFile(i18nextLocalePath, "utf-8");
-		const localeStrings = flatten(yaml.safeLoad(rawLocaleStrings));
+		let localeStrings;
+		if (args.i18next_format === "yaml") {
+			localeStrings = flatten(yaml.safeLoad(rawLocaleStrings));
+		} else {
+			localeStrings = flatten(JSON.parse(rawLocaleStrings));
+		}
 		const allKeys = new Set(Object.keys(localeStrings).concat(Object.keys(oldChromeStrings)));
 		const chromeStrings = {};
 		for (let key of sorted(allKeys)) {
@@ -119,7 +125,7 @@ async function main(args) {
 			if (localeStrings[key]) {
 				chromeStrings[key].message = localeStrings[key];
 			}
-			if (descriptions[key]) {
+			if (descriptions && descriptions[key]) {
 				chromeStrings[key].description = descriptions[key];
 			}
 		}
