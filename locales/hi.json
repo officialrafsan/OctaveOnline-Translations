@@ -196,7 +196,7 @@
     "description": "Site Title (does not need translation)"
   },
   "header.sidebar.changeemail#body": {
-    "message": "पहले साइन इन किया था लेकिन अब अपना ईमेल पता बदलना चाहते हैं? "फीडबैक \" पर क्लिक करें और टिकट बनाएं। हम इसे बदलने में आपकी मदद करेंगे।",
+    "message": "पहले साइन इन किया था लेकिन अब अपना ईमेल पता बदलना चाहते हैं? \"फीडबैक \" पर क्लिक करें और टिकट बनाएं। हम इसे बदलने में आपकी मदद करेंगे।",
     "description": "(OBSOLETE) Paragraph of body text"
   },
   "header.sidebar.changelayout#btn": {
@@ -440,7 +440,7 @@
     "description": "Call to action, paragraph of body text"
   },
   "modals.changepwd.p1": {
-    "message": "नीचे अपना नया पासवर्ड डालिए। अपना पासवर्ड हटाने और पासवर्ड-आधारित लॉगिन अक्षम करने के लिए, पासवर्ड फ़ील्ड को \ "पासवर्ड सहेजें \" पर खाली छोड़ दें। पर क्लिक करें",
+    "message": "नीचे अपना नया पासवर्ड डालिए। अपना पासवर्ड हटाने और पासवर्ड-आधारित लॉगिन अक्षम करने के लिए, पासवर्ड फ़ील्ड को \"पासवर्ड सहेजें \" पर खाली छोड़ दें। पर क्लिक करें",
     "description": "Call to action, paragraph of body text"
   },
   "modals.changepwd.submit#btn": {
@@ -456,11 +456,11 @@
     "description": "Section header, followed by a list"
   },
   "modals.createbucket.p1": {
-    "message": "कैसे एक বা "बाल्टी" बनाने के लिए {{config.client.app_name}} स्क्रिप्ट या डेटा फ़ाइलों के स्नैपशॉट सार्वजनिक रूप से साझा किए जा सकते हैं।",
+    "message": "कैसे एक বা \"बाल्टी\" बनाने के लिए {{config.client.app_name}} स्क्रिप्ट या डेटा फ़ाइलों के स्नैपशॉट सार्वजनिक रूप से साझा किए जा सकते हैं।",
     "description": "Paragraph of body text"
   },
   "modals.createbucket.p1@2": {
-    "message": "एक "बकेट" यह है कि कैसे स्क्रिप्ट या डेटा फ़ाइलों के स्नैपशॉट को सार्वजनिक रूप से साझा किया जा सकता है। स्क्रिप्ट और डेटा फ़ाइलों को व्यवस्थित करने के लिए एक "प्रोजेक्ट" एक संपादन योग्य कार्यक्षेत्र है।",
+    "message": "एक \"बकेट\" यह है कि कैसे स्क्रिप्ट या डेटा फ़ाइलों के स्नैपशॉट को सार्वजनिक रूप से साझा किया जा सकता है। स्क्रिप्ट और डेटा फ़ाइलों को व्यवस्थित करने के लिए एक \"प्रोजेक्ट\" एक संपादन योग्य कार्यक्षेत्र है।",
     "description": "Paragraph of body text"
   },
   "modals.createbucket.p2": {
@@ -468,7 +468,7 @@
     "description": "Call to action, paragraph of body text"
   },
   "modals.createbucket.p3": {
-    "message": "जब कोई बाल्टी देखता है तो मूल "मूल स्क्रिप्ट" स्क्रिप्ट स्वचालित रूप से चलती है।",
+    "message": "जब कोई बाल्टी देखता है तो मूल \"मूल स्क्रिप्ट\" स्क्रिप्ट स्वचालित रूप से चलती है।",
     "description": "Paragraph of body text"
   },
   "modals.createbucket.p4": {
@@ -532,7 +532,7 @@
     "description": "Paragraph of body text"
   },
   "modals.password.p1": {
-    "message": "इसके बजाय \ "ईमेल टोकन \" साइन-इन विकल्प का उपयोग करें। एक बार साइन इन करने के बाद, नया पासवर्ड सेट करने के लिए मेनू में "पासवर्ड बदलें \" विकल्प का उपयोग करें।",
+    "message": "इसके बजाय \"ईमेल टोकन \" साइन-इन विकल्प का उपयोग करें। एक बार साइन इन करने के बाद, नया पासवर्ड सेट करने के लिए मेनू में \"पासवर्ड बदलें \" विकल्प का उपयोग करें।",
     "description": "Call to action, paragraph of body text"
   },
   "modals.password.subhead1": {
