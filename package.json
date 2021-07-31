@@ -17,7 +17,7 @@
     "i18next2chrome": "./bin/i18next2chrome.js"
   },
   "scripts": {
-    "test": "if [[ -z $(git status --porcelain=v1) ]]; then echo \"\"; else echo \"Please commit all changes\"; exit 1; fi && node bin/chrome2i18next.js -i locales -o i18next_locales && node bin/i18next2chrome.js -i i18next_locales -o locales --i18next_format json",
+    "test": "bash test.sh",
     "lint": "node node_modules/.bin/eslint . --ext .js,.jsx,.ts,.tsx,.json",
     "fix": "node node_modules/.bin/eslint . --ext .js,.jsx,.ts,.tsx,.json --fix"
   },
