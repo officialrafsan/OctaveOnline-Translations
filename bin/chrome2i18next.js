@@ -22,29 +22,30 @@ const path = require("path");
 require("yargs")
 	.scriptName("chrome2i18next")
 	.usage("$0", "Converts from Chrome JSON to i18next translation bundles", (yargs) => {
-		yargs.option("in_dir", {
-			alias: "i",
-			demandOption: true,
-			requiresArg: true,
-			describe: "Input directory containing Chrome JSON files",
-		})
-		.option("out_dir", {
-			alias: "o",
-			demandOption: true,
-			requiresArg: true,
-			describe: "Output directory containing i18next files",
-		})
-		.option("i18next_format", {
+		yargs
+			.option("in_dir", {
+				alias: "i",
+				demandOption: true,
+				requiresArg: true,
+				describe: "Input directory containing Chrome JSON files",
+			})
+			.option("out_dir", {
+				alias: "o",
+				demandOption: true,
+				requiresArg: true,
+				describe: "Output directory containing i18next files",
+			})
+			.option("i18next_format", {
 			// TODO: Consider adding YAML output format
-			choices: ["json"],
-			default: "json",
-			describe: "i18next file format",
-		})
-		.option("locales", {
-			alias: "l",
-			array: true,
-			describe: "Locales to export (if not specified, convert all locales in the directory)",
-		})
+				choices: ["json"],
+				default: "json",
+				describe: "i18next file format",
+			})
+			.option("locales", {
+				alias: "l",
+				array: true,
+				describe: "Locales to export (if not specified, convert all locales in the directory)",
+			});
 	}, main)
 	.help()
 	.argv;
@@ -64,8 +65,8 @@ async function main(args) {
 		const re = new RegExp("^([\\w\\-]+)\\.json");
 		const filenames = await fs.promises.readdir(args.in_dir);
 		for (let filename of filenames) {
-			let match;
-			if (match = re.exec(filename)) {
+			let match = re.exec(filename);
+			if (match) {
 				locales.push(match[1]);
 			}
 		}

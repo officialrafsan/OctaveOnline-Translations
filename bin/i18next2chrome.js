@@ -14,6 +14,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+/* eslint no-console: 0 */
+
 const flatten = require("flat");
 const fs = require("fs");
 const mkdirp = require("mkdirp");
@@ -23,33 +25,34 @@ const yaml = require("js-yaml");
 require("yargs")
 	.scriptName("i18next2chrome")
 	.usage("$0", "Converts from i18next to Chrome JSON translation bundles", (yargs) => {
-		yargs.option("in_dir", {
-			alias: "i",
-			demandOption: true,
-			requiresArg: true,
-			describe: "Input directory containing i18next files",
-		})
-		.option("out_dir", {
-			alias: "o",
-			demandOption: true,
-			requiresArg: true,
-			describe: "Output directory containing Chrome JSON files",
-		})
-		.option("i18next_format", {
+		yargs
+			.option("in_dir", {
+				alias: "i",
+				demandOption: true,
+				requiresArg: true,
+				describe: "Input directory containing i18next files",
+			})
+			.option("out_dir", {
+				alias: "o",
+				demandOption: true,
+				requiresArg: true,
+				describe: "Output directory containing Chrome JSON files",
+			})
+			.option("i18next_format", {
 			// TODO: Consider adding JSON output format
-			choices: ["yaml"],
-			default: "yaml",
-			describe: "i18next file format",
-		})
-		.option("locales", {
-			alias: "l",
-			array: true,
-			describe: "Locales to export (if not specified, convert all locales in the directory)",
-		})
-		.option("overwrite", {
-			alias: "W",
-			describe: "Overwrite the Chrome JSON file, rather than merge",
-		})
+				choices: ["yaml"],
+				default: "yaml",
+				describe: "i18next file format",
+			})
+			.option("locales", {
+				alias: "l",
+				array: true,
+				describe: "Locales to export (if not specified, convert all locales in the directory)",
+			})
+			.option("overwrite", {
+				alias: "W",
+				describe: "Overwrite the Chrome JSON file, rather than merge",
+			});
 	}, main)
 	.help()
 	.argv;
@@ -70,8 +73,8 @@ async function main(args) {
 		const re = new RegExp("([\\w\\-]+)\\." + args.i18next_format);
 		const filenames = await fs.promises.readdir(args.in_dir);
 		for (let filename of filenames) {
-			let match;
-			if (match = re.exec(filename)) {
+			let match = re.exec(filename);
+			if (match) {
 				if (match[1] === "qqq") {
 					// Description file
 					continue;
@@ -89,7 +92,7 @@ async function main(args) {
 		const rawDescriptions = await fs.promises.readFile(descPath, "utf-8");
 		descriptions = flatten(yaml.safeLoad(rawDescriptions));
 	} catch (e) {
-		console.error("Note: descriptions not found in " + descriptionFilename);
+		console.error("Note: descriptions not found in " + descFilename);
 	}
 
 	// Create output directory if necessary
