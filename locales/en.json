@@ -43,6 +43,10 @@
     "message": "Submit",
     "description": "Button text"
   },
+  "constants.shortlink_prefix": {
+    "message": "https://{{config.redirect.hostname}}/",
+    "description": "DO NOT TRANSLATE"
+  },
   "editor.tips.a1": {
     "message": "Full List",
     "description": "Link text"
@@ -311,6 +315,18 @@
     "message": "Unenroll",
     "description": "Button text"
   },
+  "javascript.buckets.error1": {
+    "message": "Error: invalid short link. Use at least 5 letters, numbers, -, and _.",
+    "description": "Paragraph of body text"
+  },
+  "javascript.buckets.error2": {
+    "message": "Error: That short link is already taken. Please try again.",
+    "description": "Paragraph of body text"
+  },
+  "javascript.buckets.label1": {
+    "message": "Enter a new short link:",
+    "description": "Label for form field"
+  },
   "javascript.console.exited#alert": {
     "message": "Octave Exited. Message:",
     "description": "Label, followed by an error code"
@@ -427,6 +443,10 @@
     "message": "Fork This Project",
     "description": "Button text"
   },
+  "modals.bucketinfo.btn2": {
+    "message": "Change Short Link",
+    "description": "Button text"
+  },
   "modals.bucketinfo.label1": {
     "message": "Created at:",
     "description": "Label, followed by a date and time"
@@ -479,6 +499,10 @@
     "message": "After clicking below, your browser will refresh into your new project.",
     "description": "Paragraph of body text"
   },
+  "modals.createbucket.p5": {
+    "message": "You can set a custom URL for your bucket or project via our short-link service at {{config.redirect.hostname}}.",
+    "description": "Paragraph of body text"
+  },
   "modals.createbucket.subhead1": {
     "message": "Optional: Add More Files",
     "description": "Call to action, section header"
@@ -505,6 +529,10 @@
   },
   "modals.createbucket.subhead4": {
     "message": "Optional: Select Main File",
+    "description": "Call to action, section header"
+  },
+  "modals.createbucket.subhead5": {
+    "message": "Optional: Custom URL / Short Link",
     "description": "Call to action, section header"
   },
   "modals.createbucket.submit#btn": {
@@ -605,6 +633,18 @@
   },
   "modals.upgrade.title": {
     "message": "Upgrade Account",
+    "description": "Title of dialog box"
+  },
+  "modals.welcome_back.btn1": {
+    "message": "OK",
+    "description": "Button text"
+  },
+  "modals.welcome_back.p1": {
+    "message": "It has been a while since you've visited {{config.client.app_name}}. You have a clean workspace for a fresh start. To restore your data from last time, please contact support using the button in the menu.",
+    "description": "Paragraph of body text"
+  },
+  "modals.welcome_back.title": {
+    "message": "Welcome Back!",
     "description": "Title of dialog box"
   },
   "panel.output.github#btn": {
