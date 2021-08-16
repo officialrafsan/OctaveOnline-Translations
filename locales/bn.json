@@ -43,6 +43,10 @@
     "message": "সাবমিট",
     "description": "Button text"
   },
+  "constants.shortlink_prefix": {
+    "message": "https://{{config.redirect.hostname}}/",
+    "description": "DO NOT TRANSLATE"
+  },
   "editor.tips.a1": {
     "message": "সম্পুর্ণ তালিকা",
     "description": "Link text"
@@ -311,6 +315,18 @@
     "message": "তালিকাভুক্ত করা",
     "description": "Button text"
   },
+  "javascript.buckets.error1": {
+    "message": "ভুল হয়েছে: অযোগ্য সংক্ষিপ্ত লিংক। কমপক্ষে 5 টি বর্ণ, সংখ্যা, -, এবং _।",
+    "description": "Paragraph of body text"
+  },
+  "javascript.buckets.error2": {
+    "message": "ভুল হয়েছে : সংক্ষিপ্ত লিংকটি আগেই নিয়ে নেওয়া হয়েছে। পুনরায় চেষ্টা করুন।",
+    "description": "Paragraph of body text"
+  },
+  "javascript.buckets.label1": {
+    "message": "নতুন একটি সংক্ষিপ্ত লিংক যোগ করুন :",
+    "description": "Label for form field"
+  },
   "javascript.console.exited#alert": {
     "message": "অক্টাভে উত্তেজিত। বার্তা:",
     "description": "Label, followed by an error code"
@@ -427,6 +443,10 @@
     "message": "এই প্রকল্পটি ফর্ক করুন",
     "description": "Button text"
   },
+  "modals.bucketinfo.btn2": {
+    "message": "সংক্ষিপ্ত লিঙ্ক পরিবর্তন করুন",
+    "description": "Button text"
+  },
   "modals.bucketinfo.label1": {
     "message": "তৈরি করা হয়েছে:",
     "description": "Label, followed by a date and time"
@@ -479,6 +499,10 @@
     "message": "নীচে ক্লিক করার পরে, আপনার ব্রাউজারটি আপনার নতুন প্রকল্প রিফ্রেশ করবে।",
     "description": "Paragraph of body text"
   },
+  "modals.createbucket.p5": {
+    "message": "আমাদের শর্টলিংক সার্ভিস দিয়ে আপনি আপনার পাকেট অথবা প্রোজেক্টের জন্য একটি কাস্টম ইউআরএল পেতে পারেন{{config.redirect.hostname}}",
+    "description": "Paragraph of body text"
+  },
   "modals.createbucket.subhead1": {
     "message": "ঐচ্ছিক: আরও ফাইল যুক্ত করুন",
     "description": "Call to action, section header"
@@ -507,6 +531,10 @@
     "message": "ঐচ্ছিক: প্রধান ফাইলটি নির্বাচন করুন",
     "description": "Call to action, section header"
   },
+  "modals.createbucket.subhead5": {
+    "message": "ঐচ্ছিক : কাস্টম লিংক /সংক্ষিপ্ত লিংক",
+    "description": "Call to action, section header"
+  },
   "modals.createbucket.submit#btn": {
     "message": "বাকেট তৈরি করুন",
     "description": "Button text"
@@ -530,6 +558,34 @@
   "modals.email.p1": {
     "message": "আপনাকে পরবর্তী স্ক্রিনে একটি 11-সংখ্যার কোড ইনপুট করতে হবে যেটা আপনাকে ইমেল করা হবে। আপনি যদি আপনার কোড না পান তবে দয়া করে সহায়তার জন্য একটি টিকিট খুলুন।",
     "description": "Paragraph of body text"
+  },
+  "modals.history.btn1": {
+    "message": "ভার্সন কন্ট্রোল চালু করুন",
+    "description": "Button text"
+  },
+  "modals.history.btn2": {
+    "message": "জিপ আর্কাইভ তৈরি করুন",
+    "description": "Button text"
+  },
+  "modals.history.p1": {
+    "message": "আপনার ফাইলের রিভিশনগুলো গিট ভার্সন কন্ট্রোল সিস্টেম দিয়ে ট্রাক করা হচ্ছে।",
+    "description": "Paragraph of body text"
+  },
+  "modals.history.p2": {
+    "message": "জিপ ফাইল স্ন্যাপশট অনুরোধের জন্য নিচের লিংকে ক্লিক করে,আপনার ইমেইল পাঠান। নোট-  আপনি যদি আপনার ফাইল এর পরিবর্তন করে থাকেন তবে \" রিফ্রেশ ফাইল \"বাটন চেপে আপনি সবচেয়ে হালনাগাদকৃত স্ন্যাপশট পাবেন।",
+    "description": "Paragraph of body text"
+  },
+  "modals.history.subtitle1": {
+    "message": "ভার্সন কন্ট্রোল",
+    "description": "Section title"
+  },
+  "modals.history.subtitle2": {
+    "message": "স্ন্যাপশট ডাউনলোড করুন",
+    "description": "Section title"
+  },
+  "modals.history.title": {
+    "message": "ফাইল হিস্টরি",
+    "description": "Title of dialog box"
   },
   "modals.password.p1": {
     "message": "পরিবর্তে \"ইমেইল টোকেন\" সাইন-ইন বিকল্পটি ব্যবহার করুন। আপনি একবার সাইন ইন হয়ে গেলে, নতুন পাসওয়ার্ড সেট করতে মেনুতে \"চেঞ্জ পাসওয়ার্ড\" বিকল্পটি ব্যবহার করুন।",
@@ -578,6 +634,18 @@
   "modals.upgrade.title": {
     "message": "আপগ্রেড অ্যাকাউন্ট",
     "description": "Button text"
+  },
+  "modals.welcome_back.btn1": {
+    "message": "ঠিক আছে",
+    "description": "Button text"
+  },
+  "modals.welcome_back.p1": {
+    "message": "আপনি এখানে এসেছেন বেশকিছু সময় হয়ে গিয়েছে।{{config.client.app_name}}।নতুন করে শুরুর জন্য আপনাকে একটি পরিষ্কার কর্মস্থল দেওয়া হল। পুরানো ডাটা ফিরে পেতে অনুগ্রহ করে সাহায্যে যোগাযোগ করুন মেনুর বাটন থেকে।",
+    "description": "Paragraph of body text"
+  },
+  "modals.welcome_back.title": {
+    "message": "আপনাকে স্বাগতম!",
+    "description": "Title of dialog box"
   },
   "panel.output.github#btn": {
     "message": "গিটহাব এ {{projectName}}",
