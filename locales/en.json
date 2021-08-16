@@ -633,7 +633,7 @@
   },
   "modals.upgrade.title": {
     "message": "Upgrade Account",
-    "description": "Title of dialog box"
+    "description": "Button text"
   },
   "modals.welcome_back.btn1": {
     "message": "OK",
