@@ -1,0 +1,29 @@
+plugins:
+  - json-format
+env:
+  es6: true
+  node: true
+extends: 'eslint:recommended'
+parserOptions:
+  ecmaVersion: 2018
+rules:
+  indent:
+    - error
+    - tab
+    - SwitchCase: 1
+  linebreak-style:
+    - error
+    - unix
+  quotes:
+    - error
+    - double
+  semi:
+    - error
+    - always
+overrides:
+  - files:
+      - locales/*.json
+    rules:
+      indent:
+        - error
+        - 2

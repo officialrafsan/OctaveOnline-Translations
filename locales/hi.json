@@ -43,6 +43,10 @@
     "message": "प्रस्तुत",
     "description": "Button text"
   },
+  "constants.shortlink_prefix": {
+    "message": "https://{{config.redirect.hostname}}/",
+    "description": "DO NOT TRANSLATE"
+  },
   "editor.tips.a1": {
     "message": "पूरी लिस्ट",
     "description": "Link text"
@@ -196,7 +200,7 @@
     "description": "Site Title (does not need translation)"
   },
   "header.sidebar.changeemail#body": {
-    "message": "पहले साइन इन किया था लेकिन अब अपना ईमेल पता बदलना चाहते हैं? "फीडबैक \" पर क्लिक करें और टिकट बनाएं। हम इसे बदलने में आपकी मदद करेंगे।",
+    "message": "पहले साइन इन किया था लेकिन अब अपना ईमेल पता बदलना चाहते हैं? \"फीडबैक \" पर क्लिक करें और टिकट बनाएं। हम इसे बदलने में आपकी मदद करेंगे।",
     "description": "(OBSOLETE) Paragraph of body text"
   },
   "header.sidebar.changelayout#btn": {
@@ -310,6 +314,18 @@
   "header.students.unenroll#btn": {
     "message": "सूचीबद्ध होने वाला",
     "description": "Button text"
+  },
+  "javascript.buckets.error1": {
+    "message": "एरर: अवैध शॉर्ट लिंक। कम से कम 5 अक्षर, संख्या,-,और_  का उपयोग करें।",
+    "description": "Paragraph of body text"
+  },
+  "javascript.buckets.error2": {
+    "message": "एरर: वह शॉर्ट लिंक पहले ही ले ली गई है। दुबारा प्रयास करें।",
+    "description": "Paragraph of body text"
+  },
+  "javascript.buckets.label1": {
+    "message": "एक नई शॉर्ट लिंक एंटर करें",
+    "description": "Label for form field"
   },
   "javascript.console.exited#alert": {
     "message": "ऑक्टेव में उत्साहित। संदेश:",
@@ -427,6 +443,10 @@
     "message": "इस परियोजना को फोर्क करें",
     "description": "Button text"
   },
+  "modals.bucketinfo.btn2": {
+    "message": "शॉर्ट लिंक को बदलें",
+    "description": "Button text"
+  },
   "modals.bucketinfo.label1": {
     "message": "सृजित किया गया:",
     "description": "Label, followed by a date and time"
@@ -440,7 +460,7 @@
     "description": "Call to action, paragraph of body text"
   },
   "modals.changepwd.p1": {
-    "message": "नीचे अपना नया पासवर्ड डालिए। अपना पासवर्ड हटाने और पासवर्ड-आधारित लॉगिन अक्षम करने के लिए, पासवर्ड फ़ील्ड को \ "पासवर्ड सहेजें \" पर खाली छोड़ दें। पर क्लिक करें",
+    "message": "नीचे अपना नया पासवर्ड डालिए। अपना पासवर्ड हटाने और पासवर्ड-आधारित लॉगिन अक्षम करने के लिए, पासवर्ड फ़ील्ड को \"पासवर्ड सहेजें \" पर खाली छोड़ दें। पर क्लिक करें",
     "description": "Call to action, paragraph of body text"
   },
   "modals.changepwd.submit#btn": {
@@ -456,11 +476,11 @@
     "description": "Section header, followed by a list"
   },
   "modals.createbucket.p1": {
-    "message": "कैसे एक বা "बाल्टी" बनाने के लिए {{config.client.app_name}} स्क्रिप्ट या डेटा फ़ाइलों के स्नैपशॉट सार्वजनिक रूप से साझा किए जा सकते हैं।",
+    "message": "कैसे एक বা \"बाल्टी\" बनाने के लिए {{config.client.app_name}} स्क्रिप्ट या डेटा फ़ाइलों के स्नैपशॉट सार्वजनिक रूप से साझा किए जा सकते हैं।",
     "description": "Paragraph of body text"
   },
   "modals.createbucket.p1@2": {
-    "message": "एक "बकेट" यह है कि कैसे स्क्रिप्ट या डेटा फ़ाइलों के स्नैपशॉट को सार्वजनिक रूप से साझा किया जा सकता है। स्क्रिप्ट और डेटा फ़ाइलों को व्यवस्थित करने के लिए एक "प्रोजेक्ट" एक संपादन योग्य कार्यक्षेत्र है।",
+    "message": "एक \"बकेट\" यह है कि कैसे स्क्रिप्ट या डेटा फ़ाइलों के स्नैपशॉट को सार्वजनिक रूप से साझा किया जा सकता है। स्क्रिप्ट और डेटा फ़ाइलों को व्यवस्थित करने के लिए एक \"प्रोजेक्ट\" एक संपादन योग्य कार्यक्षेत्र है।",
     "description": "Paragraph of body text"
   },
   "modals.createbucket.p2": {
@@ -468,7 +488,7 @@
     "description": "Call to action, paragraph of body text"
   },
   "modals.createbucket.p3": {
-    "message": "जब कोई बाल्टी देखता है तो मूल "मूल स्क्रिप्ट" स्क्रिप्ट स्वचालित रूप से चलती है।",
+    "message": "जब कोई बाल्टी देखता है तो मूल \"मूल स्क्रिप्ट\" स्क्रिप्ट स्वचालित रूप से चलती है।",
     "description": "Paragraph of body text"
   },
   "modals.createbucket.p4": {
@@ -477,6 +497,10 @@
   },
   "modals.createbucket.p4p": {
     "message": "नीचे क्लिक करने के बाद आपका ब्राउज़र आपके नए प्रोजेक्ट को रिफ्रेश कर देगा।",
+    "description": "Paragraph of body text"
+  },
+  "modals.createbucket.p5": {
+    "message": "{{config.redirect.hostname}} पर आप हमारी शॉर्ट लिंक सर्विस के माध्यम से  अपने बकेट अथवा प्रोजेक्ट के लिए कस्टम URL सेट कर सकते हैं ।",
     "description": "Paragraph of body text"
   },
   "modals.createbucket.subhead1": {
@@ -507,6 +531,10 @@
     "message": "वैकल्पिक: मुख्य फ़ाइल का चयन करें",
     "description": "Call to action, section header"
   },
+  "modals.createbucket.subhead5": {
+    "message": "वैकल्पिक: कस्टम URL/ शॉर्ट लिंक",
+    "description": "Call to action, section header"
+  },
   "modals.createbucket.submit#btn": {
     "message": "बाल्टी बनाओ",
     "description": "Button text"
@@ -531,8 +559,36 @@
     "message": "आपको अगली स्क्रीन पर एक 11-अंकीय कोड इनपुट करना होगा जो आपको ईमेल किया जाएगा। यदि आपको अपना कोड नहीं मिलता है, तो कृपया सहायता के लिए टिकट खोलें।",
     "description": "Paragraph of body text"
   },
+  "modals.history.btn1": {
+    "message": "वर्ज़न कंट्रोल को लॉन्च करें।",
+    "description": "Button text"
+  },
+  "modals.history.btn2": {
+    "message": "ZIP आर्काइव जेनरेट करें।",
+    "description": "Button text"
+  },
+  "modals.history.p1": {
+    "message": "एक Git वर्ज़न कंट्रोल सिस्टम के माध्यम से आपकी फाइलों में किए जाने वाले संशोधनों का ब्यौरा रखा जाता है।",
+    "description": "Paragraph of body text"
+  },
+  "modals.history.p2": {
+    "message": "आपके ईमेल पर भेजे गए ZIP फ़ाइल स्नैपशॉट को प्राप्त करने की रिक्वेस्ट के लिए, नीचे दिए गए लिंक पर क्लिक करें। नोट: अगर आपने इस सेशन में अपनी फाइलों को एडिट किया है तो यह सुनिश्चित करने के लिए कि आपको एकदम नवीन (अप-टू-डेट) स्नैपशॉट प्राप्त हुआ है कृपया पहले \"रिफ़्रेश फ़ाइल\" बटन को दबाएँ।",
+    "description": "Paragraph of body text"
+  },
+  "modals.history.subtitle1": {
+    "message": "वर्ज़न कंट्रोल करें।",
+    "description": "Section title"
+  },
+  "modals.history.subtitle2": {
+    "message": "स्नैपशॉट डाउनलोड करें।",
+    "description": "Section title"
+  },
+  "modals.history.title": {
+    "message": "फ़ाइल हिस्ट्री",
+    "description": "Title of dialog box"
+  },
   "modals.password.p1": {
-    "message": "इसके बजाय \ "ईमेल टोकन \" साइन-इन विकल्प का उपयोग करें। एक बार साइन इन करने के बाद, नया पासवर्ड सेट करने के लिए मेनू में "पासवर्ड बदलें \" विकल्प का उपयोग करें।",
+    "message": "इसके बजाय \"ईमेल टोकन \" साइन-इन विकल्प का उपयोग करें। एक बार साइन इन करने के बाद, नया पासवर्ड सेट करने के लिए मेनू में \"पासवर्ड बदलें \" विकल्प का उपयोग करें।",
     "description": "Call to action, paragraph of body text"
   },
   "modals.password.subhead1": {
@@ -578,6 +634,18 @@
   "modals.upgrade.title": {
     "message": "अपग्रेड किया गया खाता",
     "description": "Button text"
+  },
+  "modals.welcome_back.btn1": {
+    "message": "ठीक है।",
+    "description": "Button text"
+  },
+  "modals.welcome_back.p1": {
+    "message": "आपने काफ़ी समय से {{config.client.app_name}} का प्रयोग नहीं किया है ।वापस से पुनः शुरुआत करने के लिए आपके पास एक क्लीन वर्कस्पेस है। अपना पहले का डाटा रिस्टोर करने के लिए, मेन्यू में दिए गए कॉन्टेक्ट सपोर्ट बटन का प्रयोग करें।",
+    "description": "Paragraph of body text"
+  },
+  "modals.welcome_back.title": {
+    "message": "पुनः स्वागत है।",
+    "description": "Title of dialog box"
   },
   "panel.output.github#btn": {
     "message": "गिटहब में {{projectName}}",

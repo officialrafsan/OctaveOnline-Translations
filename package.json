@@ -2,27 +2,33 @@
   "name": "oos-translations",
   "version": "0.0.1",
   "description": "Process localized UI strings for Octave Online Server",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "bin": {
-    "chrome2i18next": "./bin/chrome2i18next.js",
-    "i18next2chrome": "./bin/i18next2chrome.js"
+  "homepage": "https://github.com/octave-online/oos-translations#readme",
+  "bugs": {
+    "url": "https://github.com/octave-online/oos-translations/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/octave-online/oos-translations.git"
   },
-  "author": "Shane F. Carr",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/octave-online/oos-translations/issues"
+  "author": "Shane F. Carr",
+  "bin": {
+    "chrome2i18next": "./bin/chrome2i18next.js",
+    "i18next2chrome": "./bin/i18next2chrome.js"
   },
-  "homepage": "https://github.com/octave-online/oos-translations#readme",
+  "scripts": {
+    "test": "bash test.sh",
+    "lint": "node node_modules/.bin/eslint . --ext .js,.jsx,.ts,.tsx,.json",
+    "fix": "node node_modules/.bin/eslint . --ext .js,.jsx,.ts,.tsx,.json --fix"
+  },
   "dependencies": {
     "flat": "^5.0.2",
-    "js-yaml": "^3.14.0",
+    "js-yaml": "^3.14.1",
     "mkdirp": "^1.0.4",
-    "yargs": "^16.0.3"
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-json-format": "^2.0.1"
   }
 }

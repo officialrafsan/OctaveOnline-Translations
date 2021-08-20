@@ -43,6 +43,10 @@
     "message": "Enviar",
     "description": "Button text"
   },
+  "constants.shortlink_prefix": {
+    "message": "https://{{config.redirect.hostname}}/",
+    "description": "DO NOT TRANSLATE"
+  },
   "editor.tips.a1": {
     "message": "Lista completa",
     "description": "Link text"
@@ -311,6 +315,18 @@
     "message": "Retiro de la matrícula",
     "description": "Button text"
   },
+  "javascript.buckets.error1": {
+    "message": "Error: enlace corto nulo. Utilice al menos 5 letras, números, -, y _.",
+    "description": "Paragraph of body text"
+  },
+  "javascript.buckets.error2": {
+    "message": "Error: ese enlace corto ya fue ocupado. Intente de nuevo.",
+    "description": "Paragraph of body text"
+  },
+  "javascript.buckets.label1": {
+    "message": "Introduzca un nuevo enlace corto:",
+    "description": "Label for form field"
+  },
   "javascript.console.exited#alert": {
     "message": "Cierre de Octave. Mensaje:",
     "description": "Label, followed by an error code"
@@ -427,6 +443,10 @@
     "message": "Bifurcar este proyecto",
     "description": "Button text"
   },
+  "modals.bucketinfo.btn2": {
+    "message": "Cambiar enlace corto",
+    "description": "Button text"
+  },
   "modals.bucketinfo.label1": {
     "message": "Creado a las:",
     "description": "Label, followed by a date and time"
@@ -479,6 +499,10 @@
     "message": "Después de hacer clic a continuación, su navegador se refrescará y cargará su nuevo proyecto.",
     "description": "Paragraph of body text"
   },
+  "modals.createbucket.p5": {
+    "message": "Puede establecer una URL personalizada para su Bucket o proyecto a través de nuestro servicio de enlaces cortos en {{config.redirect.hostname}}.",
+    "description": "Paragraph of body text"
+  },
   "modals.createbucket.subhead1": {
     "message": "Opcional: añada más archivos",
     "description": "Call to action, section header"
@@ -507,6 +531,10 @@
     "message": "Opcional: seleccione el archivo principal",
     "description": "Call to action, section header"
   },
+  "modals.createbucket.subhead5": {
+    "message": "Opcional: URL personalizada/ enlace corto",
+    "description": "Call to action, section header"
+  },
   "modals.createbucket.submit#btn": {
     "message": "Cree un bucket",
     "description": "Button text"
@@ -530,6 +558,34 @@
   "modals.email.p1": {
     "message": "Se le enviará por correo electrónico un código de 11 dígitos que tendrá que introducir en la siguiente pantalla. Si no recibe su código, genere un tíquet de soporte para obtener ayuda.",
     "description": "Paragraph of body text"
+  },
+  "modals.history.btn1": {
+    "message": "Control de versión de lanzamiento",
+    "description": "Button text"
+  },
+  "modals.history.btn2": {
+    "message": "Generar archivo ZIP",
+    "description": "Button text"
+  },
+  "modals.history.p1": {
+    "message": "Las revisiones de sus archivos son rastreadas por un sistema de control de versiones de Git.",
+    "description": "Paragraph of body text"
+  },
+  "modals.history.p2": {
+    "message": "Para solicitar el envío de una instantánea en archivo ZIP a su correo electrónico, haga clic en el enlace de abajo. Nota: Si editó sus archivos durante esta sesión, haga clic en el botón \"Actualizar archivos\" para asegurarse de recibir la instantánea actualizada.",
+    "description": "Paragraph of body text"
+  },
+  "modals.history.subtitle1": {
+    "message": "Control de versión",
+    "description": "Section title"
+  },
+  "modals.history.subtitle2": {
+    "message": "Descargar instantánea",
+    "description": "Section title"
+  },
+  "modals.history.title": {
+    "message": "Historial de archivo",
+    "description": "Title of dialog box"
   },
   "modals.password.p1": {
     "message": "Utilice en su lugar la opción de inicio de sesión \"token de correo electrónico\". Una vez que haya iniciado la sesión, utilice en el menú la opción \"Cambiar contraseña\" para establecer una nueva contraseña.",
@@ -578,6 +634,18 @@
   "modals.upgrade.title": {
     "message": "Actualice la cuenta",
     "description": "Button text"
+  },
+  "modals.welcome_back.btn1": {
+    "message": "\"OK\"",
+    "description": "Button text"
+  },
+  "modals.welcome_back.p1": {
+    "message": "Ha pasado algún tiempo desde la última vez que visitó {{config.client.app_name}}. Usted cuenta con un área de trabajo limpia para empezar de cero. Si desea recuperar los datos de la última ocasión, póngase en contacto con soporte pulsando el botón correspondiente en el menú.",
+    "description": "Paragraph of body text"
+  },
+  "modals.welcome_back.title": {
+    "message": "¡Bienvenido una vez más!",
+    "description": "Title of dialog box"
   },
   "panel.output.github#btn": {
     "message": "{{projectName}} de GitHub",
